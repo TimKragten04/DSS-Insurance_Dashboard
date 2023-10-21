@@ -1,0 +1,93 @@
+[
+  {
+    "ID": 0,
+    "DimensionKey": "Kenmerken",
+    "Title": "Kenmerken gegroepeerd",
+    "Description": null,
+    "ParentID": null
+  },
+  {
+    "ID": 1,
+    "DimensionKey": "Kenmerken",
+    "Title": "Totaal particulier huishouden",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 2,
+    "DimensionKey": "Kenmerken",
+    "Title": "Samenstelling huishouden",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 3,
+    "DimensionKey": "Kenmerken",
+    "Title": "Samenstelling huishouden (65 of ouder)",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 4,
+    "DimensionKey": "Kenmerken",
+    "Title": "Leeftijd hoofdkostwinner (beknopt)",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 5,
+    "DimensionKey": "Kenmerken",
+    "Title": "Leeftijd hoofdkostwinner (uitgebreid)",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 6,
+    "DimensionKey": "Kenmerken",
+    "Title": "Herkomst hoofdkostwinner (land)",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 7,
+    "DimensionKey": "Kenmerken",
+    "Title": "Herkomst hoofdkostwinner (generatie)",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 8,
+    "DimensionKey": "Kenmerken",
+    "Title": "Voornaamste bron van inkomen",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 9,
+    "DimensionKey": "Kenmerken",
+    "Title": "Woonsituatie",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 10,
+    "DimensionKey": "Kenmerken",
+    "Title": "Stedelijkheid",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 11,
+    "DimensionKey": "Kenmerken",
+    "Title": "Landsdeel",
+    "Description": null,
+    "ParentID": 0
+  },
+  {
+    "ID": 12,
+    "DimensionKey": "Kenmerken",
+    "Title": "Provincie",
+    "Description": null,
+    "ParentID": 0
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Key": "  17",
+    "Title": "Besteedbaar inkomen",
+    "Description": "Het besteedbaar inkomen bestaat uit het bruto-inkomen verminderd met\r\n-betaalde inkomensoverdrachten zoals alimentatie van de\r\nex-echtgeno(o)t(e),\r\n-premies inkomensverzekeringen zoals premies betaald voor sociale\r\nverzekeringen, volksverzekeringen en particuliere verzekeringen in verband\r\nmet werkloosheid, arbeidsongeschiktheid en ouderdom en nabestaanden,\r\n-premies ziektekostenverzekeringen, en\r\n-belastingen op inkomen en vermogen.",
+    "CategoryGroupID": null
+  },
+  {
+    "Key": "  18",
+    "Title": "Gestandaardiseerd inkomen",
+    "Description": "Het gestandaardiseerd inkomen is het besteedbaar inkomen gecorrigeerd voor\r\nverschillen in grootte en samenstelling van het huishouden. Deze correctie\r\nvindt plaats met behulp van zogenoemde equivalentiefactoren. In de\r\nequivalentiefactor komen de schaalvoordelen tot uitdrukking die het gevolg\r\nzijn van het voeren van een gemeenschappelijke huishouding. Met behulp van\r\nde equivalentiefactoren worden alle inkomens herleid tot het inkomen van\r\neen eenpersoonshuishouden. Op deze wijze zijn de welvaartsniveaus van\r\nhuishoudens onderling vergelijkbaar gemaakt.",
+    "CategoryGroupID": null
+  }
+]

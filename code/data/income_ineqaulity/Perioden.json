@@ -1,0 +1,92 @@
+[
+  {
+    "Key": "2000JJ00",
+    "Title": "2000",
+    "Description": "Voorlopige cijfers\r\n\r\nDe herziening van de Inkomensstatistiek die in 2000 heeft plaatsgevonden\r\nis nog niet geheel afgerond. De cijfers over 2000 hebben daarom een\r\nvoorlopig karakter.",
+    "Status": "Voorlopig"
+  },
+  {
+    "Key": "2001JJ00",
+    "Title": "2001",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2002JJ00",
+    "Title": "2002",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2003JJ00",
+    "Title": "2003",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2004JJ00",
+    "Title": "2004",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2005JJ00",
+    "Title": "2005",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2006JJ00",
+    "Title": "2006",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2007JJ00",
+    "Title": "2007",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2008JJ00",
+    "Title": "2008",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2009JJ00",
+    "Title": "2009",
+    "Description": null,
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2010JJ00",
+    "Title": "2010",
+    "Description": "",
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2011JJ00",
+    "Title": "2011",
+    "Description": "",
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2012JJ00",
+    "Title": "2012",
+    "Description": "",
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2013JJ00",
+    "Title": "2013",
+    "Description": "",
+    "Status": "Definitief"
+  },
+  {
+    "Key": "2014JJ00",
+    "Title": "2014",
+    "Description": "",
+    "Status": "Definitief"
+  }
+]
