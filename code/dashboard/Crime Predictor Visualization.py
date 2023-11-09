@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 # Children Poverty Histogram
 import dash
@@ -50,8 +45,6 @@ if __name__ == '__main__':
     app.run_server(debug=True)
 
 
-# In[120]:
-
 
 # Debt Histogram
 import dash
@@ -97,9 +90,5 @@ app.layout = html.Div([
 # Run the application
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-
-
-
 
 
