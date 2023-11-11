@@ -1,16 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import dash
 from dash import dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
-
-
-# In[ ]:
 
 
 #Graph of Children Poverty Analysis
@@ -86,7 +77,6 @@ if __name__ == '__main__':
     app.run_server(debug=True)
 
 
-# In[ ]:
 
 
 #Graph of People with Debt Reconstruction Analysis
