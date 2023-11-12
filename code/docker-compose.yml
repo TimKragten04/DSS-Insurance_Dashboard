@@ -16,10 +16,10 @@ services:
             - PYTHONPATH=/app
         working_dir: /app
         depends_on:
-            db_dashboard:
+            dashboard:
                 condition: service_healthy
     
-    jupyter:
+    data-retrieval:
         build:
             context: .
             dockerfile: notebook/Dockerfile_notebook
@@ -28,13 +28,9 @@ services:
         volumes:
             - ./notebook:/notebook
             - ./data:/data
-        environment:
-            - JUPYTER_ENABLE_LAB=yes
-            - NB_USER=infomdss
-            - CHOWN_HOME=yes
         working_dir: /notebook
     
-    db_dashboard:
+    dashboard:
         image: postgres
         ports:
             - 5432:5432
@@ -43,8 +39,8 @@ services:
             - POSTGRES_PASSWORD=infomdss
             - POSTGRES_DB=dashboard
         volumes:
-            - db_dashboard-data:/var/lib/postgresql/data/
-        container_name: db_dashboard
+            - dashboard-data:/var/lib/postgresql/data/
+        container_name: dashboard
         healthcheck:
             test: ["CMD-SHELL", "pg_isready", "-d", "db_prod"]
             interval: 3s
@@ -53,4 +49,4 @@ services:
             start_period: 80s
 
 volumes:
-    db_dashboard-data:
+    dashboard-data:

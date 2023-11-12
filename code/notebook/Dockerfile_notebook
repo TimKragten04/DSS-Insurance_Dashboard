@@ -1,7 +1,23 @@
-FROM jupyter/scipy-notebook
+FROM python:3.10.9
+
+RUN apt-get update \
+    && apt-get -y install cron \
+    && rm /bin/sh \
+    && ln -s /bin/bash /bin/sh
 
 WORKDIR /notebook
 
 COPY ./notebook /notebook
 
-RUN pip install -r ./requirements.txt
+RUN pip install --no-cache-dir -r ./requirements.txt
+
+# Add crontab file in the cron directory
+COPY ./notebook/crontab /etc/cron.d/crontab
+
+# Give execution rigts on the cron job
+RUN chmod 0644 /etc/cron.d/crontab
+
+# Apply cron job
+RUN crontab /etc/cron.d/crontab
+
+CMD ["cron", "-f"]

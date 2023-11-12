@@ -21,7 +21,7 @@ def _fetch_data_from_db(dataset: str) -> pd.DataFrame:
     Returns:
         pd.Dataframe: The DataFrame containing the data.
     """
-    engine = sa.create_engine("postgresql://student:infomdss@db_dashboard:5432/dashboard")
+    engine = sa.create_engine("postgresql://student:infomdss@dashboard:5432/dashboard")
     df = pd.read_sql_table(dataset, engine, index_col="index")
 
     return df
@@ -88,11 +88,13 @@ def create_income_map(geo_df: gpd.GeoDataFrame):
         hover_name="region_name",
     )
     fig.update_layout(
+        title="Map that shows income inequality",
         coloraxis_colorbar_title="Avgerage Minus<br>Median Income",
-        paper_bgcolor="#CCCCCC",
         geo=dict(
             bgcolor="#e5ecf6"
-        )
+        ),
+        height=300,
+        margin={"r": 0, "t": 50, "l": 0, "b": 0}
     )
     fig.update_geos(
         visible=False,
@@ -119,40 +121,70 @@ def create_income_graph(df: pd.DataFrame):
     }
     fig = px.line(df, x="time_period", y="inequality_income", color="region_name", labels=labels)
     fig.update_layout(
-        paper_bgcolor="#CCCCCC",
+        title="Line chart that shows income inequality over the years",
+        height=300,
+        margin={"r": 0, "t": 50, "l": 0, "b": 0}
     )
 
     return fig
 
 
 app = Dash(__name__)
+df = pd.read_csv('../data/cleaned/child_poverty/poverty_all_data.csv')
 
 app.layout = html.Div([
-    html.H4("Income Inequality by Municipality"),
-    html.P("Select region:"),
-    dcc.RadioItems(
-        id="income_region",
-        options=["Province", "Municipality"],
-        value="Municipality",
-        inline=True
-    ),
     html.Div([
-        dcc.Graph(id="income_map"),
-    ], style={"width": "49%", "display": "inline-block"}),
+        html.H4("Crime and Wealth Statistics"),
+        html.P("Select region:"),
+        dcc.RadioItems(
+            id="region",
+            options=["Province", "Municipality"],
+            value="Municipality",
+            inline=False
+        ),
+    ], style={"width": "10%", "display": "inline-block", "vertical-align": "top", "magin": "0", "padding": "0"}),
     html.Div([
-        dcc.Graph(id="income_graph"),
-    ], style={"width": "49%", "display": "inline-block"}),
+        dcc.Graph(id="graph_1"),
+    ], style={"width": "45%", "display": "inline-block"}),
+    html.Div([
+        dcc.Graph(id="graph_2"),
+    ], style={"width": "45%", "display": "inline-block"}),
+
+    html.Div([
+        html.H4("Other Statistics"),
+        html.P("Select dataset:"),
+        dcc.RadioItems(
+            id="dataset_type",
+            options=["Children poverty", "Debt reconstruction"],
+            value="Children poverty",
+            inline=False
+        ),
+        html.P("Select City for Line Chart:"),
+        dcc.Dropdown(
+            id='selected_city',
+            options=[{'label': city, 'value': city} for city in df['Title'].unique()],
+            value=df['Title'].unique()[0],
+            clearable=False
+        ),
+        html.P("Select Year for Histogram:"),
+        dcc.Dropdown(
+            id='selected_year',
+            options=[{'label': year, 'value': year} for year in df['Perioden'].unique()],
+            value=df['Perioden'].unique()[0],
+            clearable=False
+        ),
+    ], style={"width": "10%", "display": "inline-block", "vertical-align": "top", "magin": "0", "padding": "0"}),
+    html.Div([
+        dcc.Graph(id="graph_3"),
+    ], style={"width": "45%", "display": "inline-block"}),
+    html.Div([
+        dcc.Graph(id="graph_4"),
+    ], style={"width": "45%", "display": "inline-block"}),
     
 ])
 
 
-@app.callback(
-    Output("income_map", "figure"),
-    Output("income_graph", "figure"),
-    Input("income_region", "value"),
-    Input("income_map", "clickData")
-)
-def display_income_graphs(income_region: str, click_data):
+def display_income_inequality_graphs(region: str, click_data):
     """
     Fetches the income inequality data, generates the figures and displays it on the dashboard.
     Gets updated every time the user clicks on the map, or if the income_region is changed.
@@ -166,7 +198,7 @@ def display_income_graphs(income_region: str, click_data):
     """
     income_inequality_df: pd.DataFrame = _fetch_data_from_db("income_inequality")
 
-    if(income_region == "Province"):
+    if(region == "Province"):
         # Create GeoDataframe for Province data that is used in the Map
         income_inequality_df_filtered = filter_dataframe(income_inequality_df, "region_type", ["Country", "Municipality"], True)
         mask = (income_inequality_df_filtered["region_name"] == "Fryslân")
@@ -203,6 +235,96 @@ def display_income_graphs(income_region: str, click_data):
     income_graph = create_income_graph(income_inequality_df_filtered)
 
     return income_map, income_graph
+
+
+def display_child_poverty_graphs(selected_city: str, selected_year: str):
+    df = pd.read_csv('../data/cleaned/child_poverty/poverty_all_data.csv')
+    filtered_df = df[df['Title'] == selected_city]
+
+    child_poverty_graph = px.line(
+        filtered_df,
+        x='Perioden',
+        y='KinderenMetKansOpArmoedeRelatief_3',
+        title=f'Children with Potential Poverty Relative in {selected_city} Over Years',
+        labels={'Perioden': 'Year', 'KinderenMetKansOpArmoedeRelatief_3': 'Children with Potential Poverty Relative'}
+    )
+
+    filtered_df = df[df['Perioden'] == selected_year]
+    child_poverty_histogram = px.histogram(
+        filtered_df,
+        x='Title',
+        y='KinderenMetKansOpArmoedeRelatief_3',
+        color='Title',
+        title=f'Children with Potential Poverty Relative in All Cities in {selected_year}',
+        labels={'Title': 'City', 'KinderenMetKansOpArmoedeRelatief_3': 'Children with Potential Poverty Relative'}
+    )
+
+    return child_poverty_graph, child_poverty_histogram
+
+
+def display_debt_reconstruction_graphs(selected_city: str, selected_year: str):
+    df = pd.read_csv('../data/cleaned/debt_reconstruction/debt_all_data.csv')
+
+    filtered_df = df[df['Title'] == selected_city]
+    debt_reconstruction_graph = px.line(
+        filtered_df,
+        x='Perioden',
+        y='PersonenMetUitgesprokenSchuldsanering_1',
+        title=f'People with Debt Reconstruction Analysis in {selected_city} Over Years',
+        labels={'Perioden': 'Year', 'PersonenMetUitgesprokenSchuldsanering_1': 'People with Debt Reconstruction Analysis'}
+    )
+
+    filtered_df = df[df['Perioden'] == selected_year]
+    debt_reconstruction_histogram = px.histogram(
+        filtered_df,
+        x='Title',
+        y='PersonenMetUitgesprokenSchuldsanering_1',
+        color='Title',
+        title=f'People with Debt Reconstruction Analysis in All Cities in {selected_year}',
+        labels={'Title': 'City', 'PersonenMetUitgesprokenSchuldsanering_1': 'People with Debt Reconstruction Analysis'}
+    )
+
+    return debt_reconstruction_graph, debt_reconstruction_histogram
+
+
+@app.callback(
+    Output("graph_1", "figure"),
+    Output("graph_2", "figure"),
+    Input("region", "value"),
+    Input("graph_1", "clickData")
+)
+def display_top_graphs(region: str, click_data):
+    """_summary_
+
+    Args:
+        income_region (str): _description_
+        dataset_type (str): _description_
+        click_data (_type_): _description_
+    """
+    return display_income_inequality_graphs(region, click_data)
+        
+
+@app.callback(
+    Output("graph_3", "figure"),
+    Output("graph_4", "figure"),
+    Input("selected_city", "value"),
+    Input("selected_year", "value"),
+    Input("dataset_type", "value"),
+)
+def display_bottom_graphs(selected_city: str, selected_year: str, dataset_type: str):
+    """_summary_
+
+    Args:
+        income_region (str): _description_
+        dataset_type (str): _description_
+        click_data (_type_): _description_
+    """
+    match dataset_type:
+        case "Children poverty":
+            return display_child_poverty_graphs(selected_city, selected_year)
+        case "Debt reconstruction":
+            return display_debt_reconstruction_graphs(selected_city, selected_year)
+    
 
 
 if __name__ == "__main__":
