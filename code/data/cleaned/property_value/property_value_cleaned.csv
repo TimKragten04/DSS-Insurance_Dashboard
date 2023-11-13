@@ -1,0 +1,1866 @@
+dataset,time_period,region_name,region_type,region_code,property_value
+people_in_debt,2019,Nederland,Country,NL01,250.0
+people_in_debt,2020,Nederland,Country,NL01,271.0
+people_in_debt,2021,Nederland,Country,NL01,290.0
+people_in_debt,2022,Nederland,Country,NL01,317.0
+people_in_debt,2023,Nederland,Country,NL01,369.0
+people_in_debt,2019,Groningen,Province,PV20,177.0
+people_in_debt,2020,Groningen,Province,PV20,190.0
+people_in_debt,2021,Groningen,Province,PV20,205.0
+people_in_debt,2022,Groningen,Province,PV20,229.0
+people_in_debt,2023,Groningen,Province,PV20,268.0
+people_in_debt,2019,Fryslân,Province,PV21,190.0
+people_in_debt,2020,Fryslân,Province,PV21,202.0
+people_in_debt,2021,Fryslân,Province,PV21,217.0
+people_in_debt,2022,Fryslân,Province,PV21,241.0
+people_in_debt,2023,Fryslân,Province,PV21,278.0
+people_in_debt,2019,Drenthe,Province,PV22,203.0
+people_in_debt,2020,Drenthe,Province,PV22,215.0
+people_in_debt,2021,Drenthe,Province,PV22,230.0
+people_in_debt,2022,Drenthe,Province,PV22,255.0
+people_in_debt,2023,Drenthe,Province,PV22,295.0
+people_in_debt,2019,Overijssel,Province,PV23,221.0
+people_in_debt,2020,Overijssel,Province,PV23,235.0
+people_in_debt,2021,Overijssel,Province,PV23,251.0
+people_in_debt,2022,Overijssel,Province,PV23,280.0
+people_in_debt,2023,Overijssel,Province,PV23,326.0
+people_in_debt,2019,Flevoland,Province,PV24,218.0
+people_in_debt,2020,Flevoland,Province,PV24,241.0
+people_in_debt,2021,Flevoland,Province,PV24,262.0
+people_in_debt,2022,Flevoland,Province,PV24,292.0
+people_in_debt,2023,Flevoland,Province,PV24,348.0
+people_in_debt,2019,Gelderland,Province,PV25,246.0
+people_in_debt,2020,Gelderland,Province,PV25,263.0
+people_in_debt,2021,Gelderland,Province,PV25,281.0
+people_in_debt,2022,Gelderland,Province,PV25,310.0
+people_in_debt,2023,Gelderland,Province,PV25,365.0
+people_in_debt,2019,Utrecht,Province,PV26,301.0
+people_in_debt,2020,Utrecht,Province,PV26,326.0
+people_in_debt,2021,Utrecht,Province,PV26,349.0
+people_in_debt,2022,Utrecht,Province,PV26,382.0
+people_in_debt,2023,Utrecht,Province,PV26,449.0
+people_in_debt,2019,Noord-Holland,Province,PV27,318.0
+people_in_debt,2020,Noord-Holland,Province,PV27,350.0
+people_in_debt,2021,Noord-Holland,Province,PV27,368.0
+people_in_debt,2022,Noord-Holland,Province,PV27,394.0
+people_in_debt,2023,Noord-Holland,Province,PV27,461.0
+people_in_debt,2019,Zuid-Holland,Province,PV28,236.0
+people_in_debt,2020,Zuid-Holland,Province,PV28,261.0
+people_in_debt,2021,Zuid-Holland,Province,PV28,282.0
+people_in_debt,2022,Zuid-Holland,Province,PV28,311.0
+people_in_debt,2023,Zuid-Holland,Province,PV28,360.0
+people_in_debt,2019,Zeeland,Province,PV29,205.0
+people_in_debt,2020,Zeeland,Province,PV29,215.0
+people_in_debt,2021,Zeeland,Province,PV29,228.0
+people_in_debt,2022,Zeeland,Province,PV29,248.0
+people_in_debt,2023,Zeeland,Province,PV29,282.0
+people_in_debt,2019,Noord-Brabant,Province,PV30,260.0
+people_in_debt,2020,Noord-Brabant,Province,PV30,278.0
+people_in_debt,2021,Noord-Brabant,Province,PV30,295.0
+people_in_debt,2022,Noord-Brabant,Province,PV30,323.0
+people_in_debt,2023,Noord-Brabant,Province,PV30,370.0
+people_in_debt,2019,Limburg,Province,PV31,203.0
+people_in_debt,2020,Limburg,Province,PV31,218.0
+people_in_debt,2021,Limburg,Province,PV31,231.0
+people_in_debt,2022,Limburg,Province,PV31,246.0
+people_in_debt,2023,Limburg,Province,PV31,289.0
+people_in_debt,2019,Aa en Hunze,Municipality,GM1680,241.0
+people_in_debt,2020,Aa en Hunze,Municipality,GM1680,257.0
+people_in_debt,2021,Aa en Hunze,Municipality,GM1680,271.0
+people_in_debt,2022,Aa en Hunze,Municipality,GM1680,298.0
+people_in_debt,2023,Aa en Hunze,Municipality,GM1680,342.0
+people_in_debt,2019,Aalsmeer,Municipality,GM0358,337.0
+people_in_debt,2020,Aalsmeer,Municipality,GM0358,361.0
+people_in_debt,2021,Aalsmeer,Municipality,GM0358,383.0
+people_in_debt,2022,Aalsmeer,Municipality,GM0358,427.0
+people_in_debt,2023,Aalsmeer,Municipality,GM0358,495.0
+people_in_debt,2019,Aalten,Municipality,GM0197,209.0
+people_in_debt,2020,Aalten,Municipality,GM0197,223.0
+people_in_debt,2021,Aalten,Municipality,GM0197,238.0
+people_in_debt,2022,Aalten,Municipality,GM0197,265.0
+people_in_debt,2023,Aalten,Municipality,GM0197,314.0
+people_in_debt,2019,Achtkarspelen,Municipality,GM0059,182.0
+people_in_debt,2020,Achtkarspelen,Municipality,GM0059,192.0
+people_in_debt,2021,Achtkarspelen,Municipality,GM0059,206.0
+people_in_debt,2022,Achtkarspelen,Municipality,GM0059,226.0
+people_in_debt,2023,Achtkarspelen,Municipality,GM0059,256.0
+people_in_debt,2019,Alblasserdam,Municipality,GM0482,217.0
+people_in_debt,2020,Alblasserdam,Municipality,GM0482,234.0
+people_in_debt,2021,Alblasserdam,Municipality,GM0482,252.0
+people_in_debt,2022,Alblasserdam,Municipality,GM0482,274.0
+people_in_debt,2023,Alblasserdam,Municipality,GM0482,325.0
+people_in_debt,2019,Albrandswaard,Municipality,GM0613,286.0
+people_in_debt,2020,Albrandswaard,Municipality,GM0613,311.0
+people_in_debt,2021,Albrandswaard,Municipality,GM0613,332.0
+people_in_debt,2022,Albrandswaard,Municipality,GM0613,365.0
+people_in_debt,2023,Albrandswaard,Municipality,GM0613,431.0
+people_in_debt,2019,Alkmaar,Municipality,GM0361,221.0
+people_in_debt,2020,Alkmaar,Municipality,GM0361,243.0
+people_in_debt,2021,Alkmaar,Municipality,GM0361,261.0
+people_in_debt,2022,Alkmaar,Municipality,GM0361,287.0
+people_in_debt,2023,Alkmaar,Municipality,GM0361,342.0
+people_in_debt,2019,Almelo,Municipality,GM0141,170.0
+people_in_debt,2020,Almelo,Municipality,GM0141,184.0
+people_in_debt,2021,Almelo,Municipality,GM0141,198.0
+people_in_debt,2022,Almelo,Municipality,GM0141,225.0
+people_in_debt,2023,Almelo,Municipality,GM0141,272.0
+people_in_debt,2019,Almere,Municipality,GM0034,222.0
+people_in_debt,2020,Almere,Municipality,GM0034,251.0
+people_in_debt,2021,Almere,Municipality,GM0034,276.0
+people_in_debt,2022,Almere,Municipality,GM0034,310.0
+people_in_debt,2023,Almere,Municipality,GM0034,363.0
+people_in_debt,2019,Alphen aan den Rijn,Municipality,GM0484,246.0
+people_in_debt,2020,Alphen aan den Rijn,Municipality,GM0484,264.0
+people_in_debt,2021,Alphen aan den Rijn,Municipality,GM0484,282.0
+people_in_debt,2022,Alphen aan den Rijn,Municipality,GM0484,309.0
+people_in_debt,2023,Alphen aan den Rijn,Municipality,GM0484,360.0
+people_in_debt,2019,Alphen-Chaam,Municipality,GM1723,333.0
+people_in_debt,2020,Alphen-Chaam,Municipality,GM1723,351.0
+people_in_debt,2021,Alphen-Chaam,Municipality,GM1723,372.0
+people_in_debt,2022,Alphen-Chaam,Municipality,GM1723,397.0
+people_in_debt,2023,Alphen-Chaam,Municipality,GM1723,438.0
+people_in_debt,2019,Altena,Municipality,GM1959,257.0
+people_in_debt,2020,Altena,Municipality,GM1959,273.0
+people_in_debt,2021,Altena,Municipality,GM1959,291.0
+people_in_debt,2022,Altena,Municipality,GM1959,320.0
+people_in_debt,2023,Altena,Municipality,GM1959,378.0
+people_in_debt,2019,Ameland,Municipality,GM0060,246.0
+people_in_debt,2020,Ameland,Municipality,GM0060,246.0
+people_in_debt,2021,Ameland,Municipality,GM0060,263.0
+people_in_debt,2022,Ameland,Municipality,GM0060,311.0
+people_in_debt,2023,Ameland,Municipality,GM0060,343.0
+people_in_debt,2019,Amersfoort,Municipality,GM0307,283.0
+people_in_debt,2020,Amersfoort,Municipality,GM0307,306.0
+people_in_debt,2021,Amersfoort,Municipality,GM0307,330.0
+people_in_debt,2022,Amersfoort,Municipality,GM0307,367.0
+people_in_debt,2023,Amersfoort,Municipality,GM0307,433.0
+people_in_debt,2019,Amstelveen,Municipality,GM0362,384.0
+people_in_debt,2020,Amstelveen,Municipality,GM0362,420.0
+people_in_debt,2021,Amstelveen,Municipality,GM0362,442.0
+people_in_debt,2022,Amstelveen,Municipality,GM0362,470.0
+people_in_debt,2023,Amstelveen,Municipality,GM0362,528.0
+people_in_debt,2019,Amsterdam,Municipality,GM0363,375.0
+people_in_debt,2020,Amsterdam,Municipality,GM0363,416.0
+people_in_debt,2021,Amsterdam,Municipality,GM0363,423.0
+people_in_debt,2022,Amsterdam,Municipality,GM0363,434.0
+people_in_debt,2023,Amsterdam,Municipality,GM0363,517.0
+people_in_debt,2019,Apeldoorn,Municipality,GM0200,245.0
+people_in_debt,2020,Apeldoorn,Municipality,GM0200,263.0
+people_in_debt,2021,Apeldoorn,Municipality,GM0200,278.0
+people_in_debt,2022,Apeldoorn,Municipality,GM0200,306.0
+people_in_debt,2023,Apeldoorn,Municipality,GM0200,378.0
+people_in_debt,2019,Appingedam,Municipality,GM0003,143.0
+people_in_debt,2020,Appingedam,Municipality,GM0003,155.0
+people_in_debt,2021,Appingedam,Municipality,GM0003,
+people_in_debt,2022,Appingedam,Municipality,GM0003,
+people_in_debt,2023,Appingedam,Municipality,GM0003,
+people_in_debt,2019,Arnhem,Municipality,GM0202,206.0
+people_in_debt,2020,Arnhem,Municipality,GM0202,221.0
+people_in_debt,2021,Arnhem,Municipality,GM0202,240.0
+people_in_debt,2022,Arnhem,Municipality,GM0202,265.0
+people_in_debt,2023,Arnhem,Municipality,GM0202,324.0
+people_in_debt,2019,Assen,Municipality,GM0106,184.0
+people_in_debt,2020,Assen,Municipality,GM0106,195.0
+people_in_debt,2021,Assen,Municipality,GM0106,210.0
+people_in_debt,2022,Assen,Municipality,GM0106,238.0
+people_in_debt,2023,Assen,Municipality,GM0106,278.0
+people_in_debt,2019,Asten,Municipality,GM0743,299.0
+people_in_debt,2020,Asten,Municipality,GM0743,321.0
+people_in_debt,2021,Asten,Municipality,GM0743,331.0
+people_in_debt,2022,Asten,Municipality,GM0743,364.0
+people_in_debt,2023,Asten,Municipality,GM0743,404.0
+people_in_debt,2019,Baarle-Nassau,Municipality,GM0744,298.0
+people_in_debt,2020,Baarle-Nassau,Municipality,GM0744,316.0
+people_in_debt,2021,Baarle-Nassau,Municipality,GM0744,337.0
+people_in_debt,2022,Baarle-Nassau,Municipality,GM0744,361.0
+people_in_debt,2023,Baarle-Nassau,Municipality,GM0744,380.0
+people_in_debt,2019,Baarn,Municipality,GM0308,316.0
+people_in_debt,2020,Baarn,Municipality,GM0308,343.0
+people_in_debt,2021,Baarn,Municipality,GM0308,373.0
+people_in_debt,2022,Baarn,Municipality,GM0308,411.0
+people_in_debt,2023,Baarn,Municipality,GM0308,472.0
+people_in_debt,2019,Barendrecht,Municipality,GM0489,288.0
+people_in_debt,2020,Barendrecht,Municipality,GM0489,314.0
+people_in_debt,2021,Barendrecht,Municipality,GM0489,336.0
+people_in_debt,2022,Barendrecht,Municipality,GM0489,368.0
+people_in_debt,2023,Barendrecht,Municipality,GM0489,421.0
+people_in_debt,2019,Barneveld,Municipality,GM0203,297.0
+people_in_debt,2020,Barneveld,Municipality,GM0203,317.0
+people_in_debt,2021,Barneveld,Municipality,GM0203,339.0
+people_in_debt,2022,Barneveld,Municipality,GM0203,376.0
+people_in_debt,2023,Barneveld,Municipality,GM0203,434.0
+people_in_debt,2019,Beek (L.),Municipality,GM0888,205.0
+people_in_debt,2020,Beek (L.),Municipality,GM0888,223.0
+people_in_debt,2021,Beek (L.),Municipality,GM0888,238.0
+people_in_debt,2022,Beek (L.),Municipality,GM0888,252.0
+people_in_debt,2023,Beek (L.),Municipality,GM0888,293.0
+people_in_debt,2019,Beekdaelen,Municipality,GM1954,213.0
+people_in_debt,2020,Beekdaelen,Municipality,GM1954,230.0
+people_in_debt,2021,Beekdaelen,Municipality,GM1954,245.0
+people_in_debt,2022,Beekdaelen,Municipality,GM1954,263.0
+people_in_debt,2023,Beekdaelen,Municipality,GM1954,305.0
+people_in_debt,2019,Beemster,Municipality,GM0370,369.0
+people_in_debt,2020,Beemster,Municipality,GM0370,405.0
+people_in_debt,2021,Beemster,Municipality,GM0370,429.0
+people_in_debt,2022,Beemster,Municipality,GM0370,
+people_in_debt,2023,Beemster,Municipality,GM0370,
+people_in_debt,2019,Beesel,Municipality,GM0889,201.0
+people_in_debt,2020,Beesel,Municipality,GM0889,220.0
+people_in_debt,2021,Beesel,Municipality,GM0889,238.0
+people_in_debt,2022,Beesel,Municipality,GM0889,252.0
+people_in_debt,2023,Beesel,Municipality,GM0889,292.0
+people_in_debt,2019,Berg en Dal,Municipality,GM1945,244.0
+people_in_debt,2020,Berg en Dal,Municipality,GM1945,259.0
+people_in_debt,2021,Berg en Dal,Municipality,GM1945,276.0
+people_in_debt,2022,Berg en Dal,Municipality,GM1945,304.0
+people_in_debt,2023,Berg en Dal,Municipality,GM1945,349.0
+people_in_debt,2019,Bergeijk,Municipality,GM1724,311.0
+people_in_debt,2020,Bergeijk,Municipality,GM1724,325.0
+people_in_debt,2021,Bergeijk,Municipality,GM1724,346.0
+people_in_debt,2022,Bergeijk,Municipality,GM1724,385.0
+people_in_debt,2023,Bergeijk,Municipality,GM1724,433.0
+people_in_debt,2019,Bergen (L.),Municipality,GM0893,229.0
+people_in_debt,2020,Bergen (L.),Municipality,GM0893,247.0
+people_in_debt,2021,Bergen (L.),Municipality,GM0893,262.0
+people_in_debt,2022,Bergen (L.),Municipality,GM0893,281.0
+people_in_debt,2023,Bergen (L.),Municipality,GM0893,327.0
+people_in_debt,2019,Bergen (NH.),Municipality,GM0373,381.0
+people_in_debt,2020,Bergen (NH.),Municipality,GM0373,414.0
+people_in_debt,2021,Bergen (NH.),Municipality,GM0373,439.0
+people_in_debt,2022,Bergen (NH.),Municipality,GM0373,477.0
+people_in_debt,2023,Bergen (NH.),Municipality,GM0373,549.0
+people_in_debt,2019,Bergen op Zoom,Municipality,GM0748,221.0
+people_in_debt,2020,Bergen op Zoom,Municipality,GM0748,233.0
+people_in_debt,2021,Bergen op Zoom,Municipality,GM0748,249.0
+people_in_debt,2022,Bergen op Zoom,Municipality,GM0748,270.0
+people_in_debt,2023,Bergen op Zoom,Municipality,GM0748,304.0
+people_in_debt,2019,Berkelland,Municipality,GM1859,241.0
+people_in_debt,2020,Berkelland,Municipality,GM1859,255.0
+people_in_debt,2021,Berkelland,Municipality,GM1859,273.0
+people_in_debt,2022,Berkelland,Municipality,GM1859,299.0
+people_in_debt,2023,Berkelland,Municipality,GM1859,357.0
+people_in_debt,2019,Bernheze,Municipality,GM1721,306.0
+people_in_debt,2020,Bernheze,Municipality,GM1721,326.0
+people_in_debt,2021,Bernheze,Municipality,GM1721,333.0
+people_in_debt,2022,Bernheze,Municipality,GM1721,374.0
+people_in_debt,2023,Bernheze,Municipality,GM1721,427.0
+people_in_debt,2019,Best,Municipality,GM0753,292.0
+people_in_debt,2020,Best,Municipality,GM0753,308.0
+people_in_debt,2021,Best,Municipality,GM0753,321.0
+people_in_debt,2022,Best,Municipality,GM0753,359.0
+people_in_debt,2023,Best,Municipality,GM0753,404.0
+people_in_debt,2019,Beuningen,Municipality,GM0209,251.0
+people_in_debt,2020,Beuningen,Municipality,GM0209,271.0
+people_in_debt,2021,Beuningen,Municipality,GM0209,291.0
+people_in_debt,2022,Beuningen,Municipality,GM0209,329.0
+people_in_debt,2023,Beuningen,Municipality,GM0209,377.0
+people_in_debt,2019,Beverwijk,Municipality,GM0375,214.0
+people_in_debt,2020,Beverwijk,Municipality,GM0375,239.0
+people_in_debt,2021,Beverwijk,Municipality,GM0375,259.0
+people_in_debt,2022,Beverwijk,Municipality,GM0375,286.0
+people_in_debt,2023,Beverwijk,Municipality,GM0375,341.0
+people_in_debt,2019,De Bilt,Municipality,GM0310,394.0
+people_in_debt,2020,De Bilt,Municipality,GM0310,421.0
+people_in_debt,2021,De Bilt,Municipality,GM0310,446.0
+people_in_debt,2022,De Bilt,Municipality,GM0310,473.0
+people_in_debt,2023,De Bilt,Municipality,GM0310,581.0
+people_in_debt,2019,Bladel,Municipality,GM1728,293.0
+people_in_debt,2020,Bladel,Municipality,GM1728,310.0
+people_in_debt,2021,Bladel,Municipality,GM1728,331.0
+people_in_debt,2022,Bladel,Municipality,GM1728,367.0
+people_in_debt,2023,Bladel,Municipality,GM1728,409.0
+people_in_debt,2019,Blaricum,Municipality,GM0376,590.0
+people_in_debt,2020,Blaricum,Municipality,GM0376,636.0
+people_in_debt,2021,Blaricum,Municipality,GM0376,686.0
+people_in_debt,2022,Blaricum,Municipality,GM0376,731.0
+people_in_debt,2023,Blaricum,Municipality,GM0376,846.0
+people_in_debt,2019,Bloemendaal,Municipality,GM0377,681.0
+people_in_debt,2020,Bloemendaal,Municipality,GM0377,735.0
+people_in_debt,2021,Bloemendaal,Municipality,GM0377,775.0
+people_in_debt,2022,Bloemendaal,Municipality,GM0377,830.0
+people_in_debt,2023,Bloemendaal,Municipality,GM0377,932.0
+people_in_debt,2019,Bodegraven-Reeuwijk,Municipality,GM1901,307.0
+people_in_debt,2020,Bodegraven-Reeuwijk,Municipality,GM1901,330.0
+people_in_debt,2021,Bodegraven-Reeuwijk,Municipality,GM1901,352.0
+people_in_debt,2022,Bodegraven-Reeuwijk,Municipality,GM1901,381.0
+people_in_debt,2023,Bodegraven-Reeuwijk,Municipality,GM1901,432.0
+people_in_debt,2019,Boekel,Municipality,GM0755,285.0
+people_in_debt,2020,Boekel,Municipality,GM0755,304.0
+people_in_debt,2021,Boekel,Municipality,GM0755,309.0
+people_in_debt,2022,Boekel,Municipality,GM0755,344.0
+people_in_debt,2023,Boekel,Municipality,GM0755,398.0
+people_in_debt,2019,Borger-Odoorn,Municipality,GM1681,197.0
+people_in_debt,2020,Borger-Odoorn,Municipality,GM1681,209.0
+people_in_debt,2021,Borger-Odoorn,Municipality,GM1681,227.0
+people_in_debt,2022,Borger-Odoorn,Municipality,GM1681,253.0
+people_in_debt,2023,Borger-Odoorn,Municipality,GM1681,297.0
+people_in_debt,2019,Borne,Municipality,GM0147,246.0
+people_in_debt,2020,Borne,Municipality,GM0147,261.0
+people_in_debt,2021,Borne,Municipality,GM0147,280.0
+people_in_debt,2022,Borne,Municipality,GM0147,313.0
+people_in_debt,2023,Borne,Municipality,GM0147,370.0
+people_in_debt,2019,Borsele,Municipality,GM0654,222.0
+people_in_debt,2020,Borsele,Municipality,GM0654,232.0
+people_in_debt,2021,Borsele,Municipality,GM0654,242.0
+people_in_debt,2022,Borsele,Municipality,GM0654,265.0
+people_in_debt,2023,Borsele,Municipality,GM0654,295.0
+people_in_debt,2019,Boxmeer,Municipality,GM0756,250.0
+people_in_debt,2020,Boxmeer,Municipality,GM0756,256.0
+people_in_debt,2021,Boxmeer,Municipality,GM0756,266.0
+people_in_debt,2022,Boxmeer,Municipality,GM0756,
+people_in_debt,2023,Boxmeer,Municipality,GM0756,
+people_in_debt,2019,Boxtel,Municipality,GM0757,267.0
+people_in_debt,2020,Boxtel,Municipality,GM0757,284.0
+people_in_debt,2021,Boxtel,Municipality,GM0757,298.0
+people_in_debt,2022,Boxtel,Municipality,GM0757,324.0
+people_in_debt,2023,Boxtel,Municipality,GM0757,376.0
+people_in_debt,2019,Breda,Municipality,GM0758,271.0
+people_in_debt,2020,Breda,Municipality,GM0758,292.0
+people_in_debt,2021,Breda,Municipality,GM0758,313.0
+people_in_debt,2022,Breda,Municipality,GM0758,336.0
+people_in_debt,2023,Breda,Municipality,GM0758,382.0
+people_in_debt,2019,Brielle,Municipality,GM0501,237.0
+people_in_debt,2020,Brielle,Municipality,GM0501,258.0
+people_in_debt,2021,Brielle,Municipality,GM0501,277.0
+people_in_debt,2022,Brielle,Municipality,GM0501,306.0
+people_in_debt,2023,Brielle,Municipality,GM0501,
+people_in_debt,2019,Bronckhorst,Municipality,GM1876,272.0
+people_in_debt,2020,Bronckhorst,Municipality,GM1876,290.0
+people_in_debt,2021,Bronckhorst,Municipality,GM1876,303.0
+people_in_debt,2022,Bronckhorst,Municipality,GM1876,352.0
+people_in_debt,2023,Bronckhorst,Municipality,GM1876,419.0
+people_in_debt,2019,Brummen,Municipality,GM0213,253.0
+people_in_debt,2020,Brummen,Municipality,GM0213,265.0
+people_in_debt,2021,Brummen,Municipality,GM0213,279.0
+people_in_debt,2022,Brummen,Municipality,GM0213,311.0
+people_in_debt,2023,Brummen,Municipality,GM0213,372.0
+people_in_debt,2019,Brunssum,Municipality,GM0899,148.0
+people_in_debt,2020,Brunssum,Municipality,GM0899,161.0
+people_in_debt,2021,Brunssum,Municipality,GM0899,172.0
+people_in_debt,2022,Brunssum,Municipality,GM0899,188.0
+people_in_debt,2023,Brunssum,Municipality,GM0899,222.0
+people_in_debt,2019,Bunnik,Municipality,GM0312,350.0
+people_in_debt,2020,Bunnik,Municipality,GM0312,382.0
+people_in_debt,2021,Bunnik,Municipality,GM0312,407.0
+people_in_debt,2022,Bunnik,Municipality,GM0312,435.0
+people_in_debt,2023,Bunnik,Municipality,GM0312,531.0
+people_in_debt,2019,Bunschoten,Municipality,GM0313,293.0
+people_in_debt,2020,Bunschoten,Municipality,GM0313,314.0
+people_in_debt,2021,Bunschoten,Municipality,GM0313,340.0
+people_in_debt,2022,Bunschoten,Municipality,GM0313,374.0
+people_in_debt,2023,Bunschoten,Municipality,GM0313,420.0
+people_in_debt,2019,Buren,Municipality,GM0214,307.0
+people_in_debt,2020,Buren,Municipality,GM0214,327.0
+people_in_debt,2021,Buren,Municipality,GM0214,345.0
+people_in_debt,2022,Buren,Municipality,GM0214,380.0
+people_in_debt,2023,Buren,Municipality,GM0214,416.0
+people_in_debt,2019,Capelle aan den IJssel,Municipality,GM0502,204.0
+people_in_debt,2020,Capelle aan den IJssel,Municipality,GM0502,229.0
+people_in_debt,2021,Capelle aan den IJssel,Municipality,GM0502,246.0
+people_in_debt,2022,Capelle aan den IJssel,Municipality,GM0502,270.0
+people_in_debt,2023,Capelle aan den IJssel,Municipality,GM0502,310.0
+people_in_debt,2019,Castricum,Municipality,GM0383,313.0
+people_in_debt,2020,Castricum,Municipality,GM0383,340.0
+people_in_debt,2021,Castricum,Municipality,GM0383,370.0
+people_in_debt,2022,Castricum,Municipality,GM0383,405.0
+people_in_debt,2023,Castricum,Municipality,GM0383,479.0
+people_in_debt,2019,Coevorden,Municipality,GM0109,203.0
+people_in_debt,2020,Coevorden,Municipality,GM0109,214.0
+people_in_debt,2021,Coevorden,Municipality,GM0109,225.0
+people_in_debt,2022,Coevorden,Municipality,GM0109,250.0
+people_in_debt,2023,Coevorden,Municipality,GM0109,287.0
+people_in_debt,2019,Cranendonck,Municipality,GM1706,262.0
+people_in_debt,2020,Cranendonck,Municipality,GM1706,279.0
+people_in_debt,2021,Cranendonck,Municipality,GM1706,296.0
+people_in_debt,2022,Cranendonck,Municipality,GM1706,328.0
+people_in_debt,2023,Cranendonck,Municipality,GM1706,355.0
+people_in_debt,2019,Cuijk,Municipality,GM1684,225.0
+people_in_debt,2020,Cuijk,Municipality,GM1684,238.0
+people_in_debt,2021,Cuijk,Municipality,GM1684,256.0
+people_in_debt,2022,Cuijk,Municipality,GM1684,
+people_in_debt,2023,Cuijk,Municipality,GM1684,
+people_in_debt,2019,Culemborg,Municipality,GM0216,235.0
+people_in_debt,2020,Culemborg,Municipality,GM0216,253.0
+people_in_debt,2021,Culemborg,Municipality,GM0216,275.0
+people_in_debt,2022,Culemborg,Municipality,GM0216,308.0
+people_in_debt,2023,Culemborg,Municipality,GM0216,369.0
+people_in_debt,2019,Dalfsen,Municipality,GM0148,294.0
+people_in_debt,2020,Dalfsen,Municipality,GM0148,312.0
+people_in_debt,2021,Dalfsen,Municipality,GM0148,329.0
+people_in_debt,2022,Dalfsen,Municipality,GM0148,356.0
+people_in_debt,2023,Dalfsen,Municipality,GM0148,400.0
+people_in_debt,2019,Dantumadiel,Municipality,GM1891,184.0
+people_in_debt,2020,Dantumadiel,Municipality,GM1891,193.0
+people_in_debt,2021,Dantumadiel,Municipality,GM1891,214.0
+people_in_debt,2022,Dantumadiel,Municipality,GM1891,248.0
+people_in_debt,2023,Dantumadiel,Municipality,GM1891,291.0
+people_in_debt,2019,Delft,Municipality,GM0503,211.0
+people_in_debt,2020,Delft,Municipality,GM0503,241.0
+people_in_debt,2021,Delft,Municipality,GM0503,263.0
+people_in_debt,2022,Delft,Municipality,GM0503,288.0
+people_in_debt,2023,Delft,Municipality,GM0503,322.0
+people_in_debt,2019,Delfzijl,Municipality,GM0010,131.0
+people_in_debt,2020,Delfzijl,Municipality,GM0010,138.0
+people_in_debt,2021,Delfzijl,Municipality,GM0010,
+people_in_debt,2022,Delfzijl,Municipality,GM0010,
+people_in_debt,2023,Delfzijl,Municipality,GM0010,
+people_in_debt,2019,Deurne,Municipality,GM0762,275.0
+people_in_debt,2020,Deurne,Municipality,GM0762,297.0
+people_in_debt,2021,Deurne,Municipality,GM0762,304.0
+people_in_debt,2022,Deurne,Municipality,GM0762,340.0
+people_in_debt,2023,Deurne,Municipality,GM0762,387.0
+people_in_debt,2019,Deventer,Municipality,GM0150,210.0
+people_in_debt,2020,Deventer,Municipality,GM0150,225.0
+people_in_debt,2021,Deventer,Municipality,GM0150,242.0
+people_in_debt,2022,Deventer,Municipality,GM0150,272.0
+people_in_debt,2023,Deventer,Municipality,GM0150,324.0
+people_in_debt,2019,Diemen,Municipality,GM0384,275.0
+people_in_debt,2020,Diemen,Municipality,GM0384,307.0
+people_in_debt,2021,Diemen,Municipality,GM0384,330.0
+people_in_debt,2022,Diemen,Municipality,GM0384,365.0
+people_in_debt,2023,Diemen,Municipality,GM0384,429.0
+people_in_debt,2019,Dijk en Waard,Municipality,GM1980,
+people_in_debt,2020,Dijk en Waard,Municipality,GM1980,
+people_in_debt,2021,Dijk en Waard,Municipality,GM1980,
+people_in_debt,2022,Dijk en Waard,Municipality,GM1980,312.0
+people_in_debt,2023,Dijk en Waard,Municipality,GM1980,367.0
+people_in_debt,2019,Dinkelland,Municipality,GM1774,284.0
+people_in_debt,2020,Dinkelland,Municipality,GM1774,298.0
+people_in_debt,2021,Dinkelland,Municipality,GM1774,312.0
+people_in_debt,2022,Dinkelland,Municipality,GM1774,340.0
+people_in_debt,2023,Dinkelland,Municipality,GM1774,379.0
+people_in_debt,2019,Doesburg,Municipality,GM0221,199.0
+people_in_debt,2020,Doesburg,Municipality,GM0221,211.0
+people_in_debt,2021,Doesburg,Municipality,GM0221,229.0
+people_in_debt,2022,Doesburg,Municipality,GM0221,253.0
+people_in_debt,2023,Doesburg,Municipality,GM0221,288.0
+people_in_debt,2019,Doetinchem,Municipality,GM0222,209.0
+people_in_debt,2020,Doetinchem,Municipality,GM0222,220.0
+people_in_debt,2021,Doetinchem,Municipality,GM0222,235.0
+people_in_debt,2022,Doetinchem,Municipality,GM0222,259.0
+people_in_debt,2023,Doetinchem,Municipality,GM0222,303.0
+people_in_debt,2019,Dongen,Municipality,GM0766,248.0
+people_in_debt,2020,Dongen,Municipality,GM0766,266.0
+people_in_debt,2021,Dongen,Municipality,GM0766,283.0
+people_in_debt,2022,Dongen,Municipality,GM0766,305.0
+people_in_debt,2023,Dongen,Municipality,GM0766,342.0
+people_in_debt,2019,Dordrecht,Municipality,GM0505,188.0
+people_in_debt,2020,Dordrecht,Municipality,GM0505,207.0
+people_in_debt,2021,Dordrecht,Municipality,GM0505,226.0
+people_in_debt,2022,Dordrecht,Municipality,GM0505,248.0
+people_in_debt,2023,Dordrecht,Municipality,GM0505,297.0
+people_in_debt,2019,Drechterland,Municipality,GM0498,264.0
+people_in_debt,2020,Drechterland,Municipality,GM0498,283.0
+people_in_debt,2021,Drechterland,Municipality,GM0498,305.0
+people_in_debt,2022,Drechterland,Municipality,GM0498,336.0
+people_in_debt,2023,Drechterland,Municipality,GM0498,402.0
+people_in_debt,2019,Drimmelen,Municipality,GM1719,257.0
+people_in_debt,2020,Drimmelen,Municipality,GM1719,272.0
+people_in_debt,2021,Drimmelen,Municipality,GM1719,294.0
+people_in_debt,2022,Drimmelen,Municipality,GM1719,337.0
+people_in_debt,2023,Drimmelen,Municipality,GM1719,372.0
+people_in_debt,2019,Dronten,Municipality,GM0303,230.0
+people_in_debt,2020,Dronten,Municipality,GM0303,244.0
+people_in_debt,2021,Dronten,Municipality,GM0303,260.0
+people_in_debt,2022,Dronten,Municipality,GM0303,284.0
+people_in_debt,2023,Dronten,Municipality,GM0303,339.0
+people_in_debt,2019,Druten,Municipality,GM0225,243.0
+people_in_debt,2020,Druten,Municipality,GM0225,262.0
+people_in_debt,2021,Druten,Municipality,GM0225,280.0
+people_in_debt,2022,Druten,Municipality,GM0225,314.0
+people_in_debt,2023,Druten,Municipality,GM0225,347.0
+people_in_debt,2019,Duiven,Municipality,GM0226,226.0
+people_in_debt,2020,Duiven,Municipality,GM0226,244.0
+people_in_debt,2021,Duiven,Municipality,GM0226,262.0
+people_in_debt,2022,Duiven,Municipality,GM0226,291.0
+people_in_debt,2023,Duiven,Municipality,GM0226,346.0
+people_in_debt,2019,Echt-Susteren,Municipality,GM1711,215.0
+people_in_debt,2020,Echt-Susteren,Municipality,GM1711,231.0
+people_in_debt,2021,Echt-Susteren,Municipality,GM1711,248.0
+people_in_debt,2022,Echt-Susteren,Municipality,GM1711,260.0
+people_in_debt,2023,Echt-Susteren,Municipality,GM1711,304.0
+people_in_debt,2019,Edam-Volendam,Municipality,GM0385,279.0
+people_in_debt,2020,Edam-Volendam,Municipality,GM0385,306.0
+people_in_debt,2021,Edam-Volendam,Municipality,GM0385,329.0
+people_in_debt,2022,Edam-Volendam,Municipality,GM0385,363.0
+people_in_debt,2023,Edam-Volendam,Municipality,GM0385,402.0
+people_in_debt,2019,Ede,Municipality,GM0228,271.0
+people_in_debt,2020,Ede,Municipality,GM0228,291.0
+people_in_debt,2021,Ede,Municipality,GM0228,310.0
+people_in_debt,2022,Ede,Municipality,GM0228,335.0
+people_in_debt,2023,Ede,Municipality,GM0228,387.0
+people_in_debt,2019,Eemnes,Municipality,GM0317,344.0
+people_in_debt,2020,Eemnes,Municipality,GM0317,378.0
+people_in_debt,2021,Eemnes,Municipality,GM0317,409.0
+people_in_debt,2022,Eemnes,Municipality,GM0317,444.0
+people_in_debt,2023,Eemnes,Municipality,GM0317,519.0
+people_in_debt,2019,Eemsdelta,Municipality,GM1979,
+people_in_debt,2020,Eemsdelta,Municipality,GM1979,
+people_in_debt,2021,Eemsdelta,Municipality,GM1979,165.0
+people_in_debt,2022,Eemsdelta,Municipality,GM1979,182.0
+people_in_debt,2023,Eemsdelta,Municipality,GM1979,214.0
+people_in_debt,2019,Eersel,Municipality,GM0770,308.0
+people_in_debt,2020,Eersel,Municipality,GM0770,327.0
+people_in_debt,2021,Eersel,Municipality,GM0770,348.0
+people_in_debt,2022,Eersel,Municipality,GM0770,397.0
+people_in_debt,2023,Eersel,Municipality,GM0770,448.0
+people_in_debt,2019,Eijsden-Margraten,Municipality,GM1903,263.0
+people_in_debt,2020,Eijsden-Margraten,Municipality,GM1903,279.0
+people_in_debt,2021,Eijsden-Margraten,Municipality,GM1903,299.0
+people_in_debt,2022,Eijsden-Margraten,Municipality,GM1903,317.0
+people_in_debt,2023,Eijsden-Margraten,Municipality,GM1903,378.0
+people_in_debt,2019,Eindhoven,Municipality,GM0772,246.0
+people_in_debt,2020,Eindhoven,Municipality,GM0772,265.0
+people_in_debt,2021,Eindhoven,Municipality,GM0772,287.0
+people_in_debt,2022,Eindhoven,Municipality,GM0772,314.0
+people_in_debt,2023,Eindhoven,Municipality,GM0772,360.0
+people_in_debt,2019,Elburg,Municipality,GM0230,250.0
+people_in_debt,2020,Elburg,Municipality,GM0230,269.0
+people_in_debt,2021,Elburg,Municipality,GM0230,287.0
+people_in_debt,2022,Elburg,Municipality,GM0230,307.0
+people_in_debt,2023,Elburg,Municipality,GM0230,345.0
+people_in_debt,2019,Emmen,Municipality,GM0114,163.0
+people_in_debt,2020,Emmen,Municipality,GM0114,174.0
+people_in_debt,2021,Emmen,Municipality,GM0114,186.0
+people_in_debt,2022,Emmen,Municipality,GM0114,208.0
+people_in_debt,2023,Emmen,Municipality,GM0114,240.0
+people_in_debt,2019,Enkhuizen,Municipality,GM0388,206.0
+people_in_debt,2020,Enkhuizen,Municipality,GM0388,224.0
+people_in_debt,2021,Enkhuizen,Municipality,GM0388,243.0
+people_in_debt,2022,Enkhuizen,Municipality,GM0388,269.0
+people_in_debt,2023,Enkhuizen,Municipality,GM0388,322.0
+people_in_debt,2019,Enschede,Municipality,GM0153,182.0
+people_in_debt,2020,Enschede,Municipality,GM0153,195.0
+people_in_debt,2021,Enschede,Municipality,GM0153,210.0
+people_in_debt,2022,Enschede,Municipality,GM0153,235.0
+people_in_debt,2023,Enschede,Municipality,GM0153,285.0
+people_in_debt,2019,Epe,Municipality,GM0232,291.0
+people_in_debt,2020,Epe,Municipality,GM0232,314.0
+people_in_debt,2021,Epe,Municipality,GM0232,325.0
+people_in_debt,2022,Epe,Municipality,GM0232,356.0
+people_in_debt,2023,Epe,Municipality,GM0232,441.0
+people_in_debt,2019,Ermelo,Municipality,GM0233,304.0
+people_in_debt,2020,Ermelo,Municipality,GM0233,321.0
+people_in_debt,2021,Ermelo,Municipality,GM0233,342.0
+people_in_debt,2022,Ermelo,Municipality,GM0233,369.0
+people_in_debt,2023,Ermelo,Municipality,GM0233,429.0
+people_in_debt,2019,Etten-Leur,Municipality,GM0777,256.0
+people_in_debt,2020,Etten-Leur,Municipality,GM0777,272.0
+people_in_debt,2021,Etten-Leur,Municipality,GM0777,288.0
+people_in_debt,2022,Etten-Leur,Municipality,GM0777,311.0
+people_in_debt,2023,Etten-Leur,Municipality,GM0777,343.0
+people_in_debt,2019,De Fryske Marren,Municipality,GM1940,227.0
+people_in_debt,2020,De Fryske Marren,Municipality,GM1940,239.0
+people_in_debt,2021,De Fryske Marren,Municipality,GM1940,258.0
+people_in_debt,2022,De Fryske Marren,Municipality,GM1940,284.0
+people_in_debt,2023,De Fryske Marren,Municipality,GM1940,324.0
+people_in_debt,2019,Geertruidenberg,Municipality,GM0779,230.0
+people_in_debt,2020,Geertruidenberg,Municipality,GM0779,243.0
+people_in_debt,2021,Geertruidenberg,Municipality,GM0779,267.0
+people_in_debt,2022,Geertruidenberg,Municipality,GM0779,292.0
+people_in_debt,2023,Geertruidenberg,Municipality,GM0779,328.0
+people_in_debt,2019,Geldrop-Mierlo,Municipality,GM1771,259.0
+people_in_debt,2020,Geldrop-Mierlo,Municipality,GM1771,279.0
+people_in_debt,2021,Geldrop-Mierlo,Municipality,GM1771,298.0
+people_in_debt,2022,Geldrop-Mierlo,Municipality,GM1771,329.0
+people_in_debt,2023,Geldrop-Mierlo,Municipality,GM1771,379.0
+people_in_debt,2019,Gemert-Bakel,Municipality,GM1652,274.0
+people_in_debt,2020,Gemert-Bakel,Municipality,GM1652,301.0
+people_in_debt,2021,Gemert-Bakel,Municipality,GM1652,309.0
+people_in_debt,2022,Gemert-Bakel,Municipality,GM1652,340.0
+people_in_debt,2023,Gemert-Bakel,Municipality,GM1652,386.0
+people_in_debt,2019,Gennep,Municipality,GM0907,238.0
+people_in_debt,2020,Gennep,Municipality,GM0907,255.0
+people_in_debt,2021,Gennep,Municipality,GM0907,274.0
+people_in_debt,2022,Gennep,Municipality,GM0907,290.0
+people_in_debt,2023,Gennep,Municipality,GM0907,349.0
+people_in_debt,2019,Gilze en Rijen,Municipality,GM0784,254.0
+people_in_debt,2020,Gilze en Rijen,Municipality,GM0784,271.0
+people_in_debt,2021,Gilze en Rijen,Municipality,GM0784,288.0
+people_in_debt,2022,Gilze en Rijen,Municipality,GM0784,314.0
+people_in_debt,2023,Gilze en Rijen,Municipality,GM0784,341.0
+people_in_debt,2019,Goeree-Overflakkee,Municipality,GM1924,232.0
+people_in_debt,2020,Goeree-Overflakkee,Municipality,GM1924,247.0
+people_in_debt,2021,Goeree-Overflakkee,Municipality,GM1924,260.0
+people_in_debt,2022,Goeree-Overflakkee,Municipality,GM1924,290.0
+people_in_debt,2023,Goeree-Overflakkee,Municipality,GM1924,347.0
+people_in_debt,2019,Goes,Municipality,GM0664,219.0
+people_in_debt,2020,Goes,Municipality,GM0664,228.0
+people_in_debt,2021,Goes,Municipality,GM0664,243.0
+people_in_debt,2022,Goes,Municipality,GM0664,266.0
+people_in_debt,2023,Goes,Municipality,GM0664,302.0
+people_in_debt,2019,Goirle,Municipality,GM0785,276.0
+people_in_debt,2020,Goirle,Municipality,GM0785,295.0
+people_in_debt,2021,Goirle,Municipality,GM0785,319.0
+people_in_debt,2022,Goirle,Municipality,GM0785,352.0
+people_in_debt,2023,Goirle,Municipality,GM0785,411.0
+people_in_debt,2019,Gooise Meren,Municipality,GM1942,398.0
+people_in_debt,2020,Gooise Meren,Municipality,GM1942,431.0
+people_in_debt,2021,Gooise Meren,Municipality,GM1942,460.0
+people_in_debt,2022,Gooise Meren,Municipality,GM1942,503.0
+people_in_debt,2023,Gooise Meren,Municipality,GM1942,557.0
+people_in_debt,2019,Gorinchem,Municipality,GM0512,211.0
+people_in_debt,2020,Gorinchem,Municipality,GM0512,225.0
+people_in_debt,2021,Gorinchem,Municipality,GM0512,243.0
+people_in_debt,2022,Gorinchem,Municipality,GM0512,261.0
+people_in_debt,2023,Gorinchem,Municipality,GM0512,312.0
+people_in_debt,2019,Gouda,Municipality,GM0513,206.0
+people_in_debt,2020,Gouda,Municipality,GM0513,221.0
+people_in_debt,2021,Gouda,Municipality,GM0513,244.0
+people_in_debt,2022,Gouda,Municipality,GM0513,276.0
+people_in_debt,2023,Gouda,Municipality,GM0513,323.0
+people_in_debt,2019,Grave,Municipality,GM0786,226.0
+people_in_debt,2020,Grave,Municipality,GM0786,239.0
+people_in_debt,2021,Grave,Municipality,GM0786,256.0
+people_in_debt,2022,Grave,Municipality,GM0786,
+people_in_debt,2023,Grave,Municipality,GM0786,
+people_in_debt,2019,'s-Gravenhage (gemeente),Municipality,GM0518,233.0
+people_in_debt,2020,'s-Gravenhage (gemeente),Municipality,GM0518,262.0
+people_in_debt,2021,'s-Gravenhage (gemeente),Municipality,GM0518,285.0
+people_in_debt,2022,'s-Gravenhage (gemeente),Municipality,GM0518,311.0
+people_in_debt,2023,'s-Gravenhage (gemeente),Municipality,GM0518,355.0
+people_in_debt,2019,Groningen (gemeente),Municipality,GM0014,192.0
+people_in_debt,2020,Groningen (gemeente),Municipality,GM0014,208.0
+people_in_debt,2021,Groningen (gemeente),Municipality,GM0014,225.0
+people_in_debt,2022,Groningen (gemeente),Municipality,GM0014,252.0
+people_in_debt,2023,Groningen (gemeente),Municipality,GM0014,295.0
+people_in_debt,2019,Gulpen-Wittem,Municipality,GM1729,229.0
+people_in_debt,2020,Gulpen-Wittem,Municipality,GM1729,249.0
+people_in_debt,2021,Gulpen-Wittem,Municipality,GM1729,271.0
+people_in_debt,2022,Gulpen-Wittem,Municipality,GM1729,285.0
+people_in_debt,2023,Gulpen-Wittem,Municipality,GM1729,331.0
+people_in_debt,2019,Haaksbergen,Municipality,GM0158,239.0
+people_in_debt,2020,Haaksbergen,Municipality,GM0158,252.0
+people_in_debt,2021,Haaksbergen,Municipality,GM0158,269.0
+people_in_debt,2022,Haaksbergen,Municipality,GM0158,302.0
+people_in_debt,2023,Haaksbergen,Municipality,GM0158,357.0
+people_in_debt,2019,Haaren,Municipality,GM0788,327.0
+people_in_debt,2020,Haaren,Municipality,GM0788,343.0
+people_in_debt,2021,Haaren,Municipality,GM0788,
+people_in_debt,2022,Haaren,Municipality,GM0788,
+people_in_debt,2023,Haaren,Municipality,GM0788,
+people_in_debt,2019,Haarlem,Municipality,GM0392,325.0
+people_in_debt,2020,Haarlem,Municipality,GM0392,356.0
+people_in_debt,2021,Haarlem,Municipality,GM0392,380.0
+people_in_debt,2022,Haarlem,Municipality,GM0392,417.0
+people_in_debt,2023,Haarlem,Municipality,GM0392,480.0
+people_in_debt,2019,Haarlemmermeer,Municipality,GM0394,296.0
+people_in_debt,2020,Haarlemmermeer,Municipality,GM0394,334.0
+people_in_debt,2021,Haarlemmermeer,Municipality,GM0394,365.0
+people_in_debt,2022,Haarlemmermeer,Municipality,GM0394,397.0
+people_in_debt,2023,Haarlemmermeer,Municipality,GM0394,472.0
+people_in_debt,2019,Halderberge,Municipality,GM1655,250.0
+people_in_debt,2020,Halderberge,Municipality,GM1655,263.0
+people_in_debt,2021,Halderberge,Municipality,GM1655,281.0
+people_in_debt,2022,Halderberge,Municipality,GM1655,302.0
+people_in_debt,2023,Halderberge,Municipality,GM1655,339.0
+people_in_debt,2019,Hardenberg,Municipality,GM0160,221.0
+people_in_debt,2020,Hardenberg,Municipality,GM0160,229.0
+people_in_debt,2021,Hardenberg,Municipality,GM0160,239.0
+people_in_debt,2022,Hardenberg,Municipality,GM0160,273.0
+people_in_debt,2023,Hardenberg,Municipality,GM0160,305.0
+people_in_debt,2019,Harderwijk,Municipality,GM0243,258.0
+people_in_debt,2020,Harderwijk,Municipality,GM0243,272.0
+people_in_debt,2021,Harderwijk,Municipality,GM0243,291.0
+people_in_debt,2022,Harderwijk,Municipality,GM0243,319.0
+people_in_debt,2023,Harderwijk,Municipality,GM0243,382.0
+people_in_debt,2019,Hardinxveld-Giessendam,Municipality,GM0523,240.0
+people_in_debt,2020,Hardinxveld-Giessendam,Municipality,GM0523,254.0
+people_in_debt,2021,Hardinxveld-Giessendam,Municipality,GM0523,267.0
+people_in_debt,2022,Hardinxveld-Giessendam,Municipality,GM0523,290.0
+people_in_debt,2023,Hardinxveld-Giessendam,Municipality,GM0523,335.0
+people_in_debt,2019,Harlingen,Municipality,GM0072,168.0
+people_in_debt,2020,Harlingen,Municipality,GM0072,179.0
+people_in_debt,2021,Harlingen,Municipality,GM0072,190.0
+people_in_debt,2022,Harlingen,Municipality,GM0072,208.0
+people_in_debt,2023,Harlingen,Municipality,GM0072,238.0
+people_in_debt,2019,Hattem,Municipality,GM0244,276.0
+people_in_debt,2020,Hattem,Municipality,GM0244,295.0
+people_in_debt,2021,Hattem,Municipality,GM0244,319.0
+people_in_debt,2022,Hattem,Municipality,GM0244,349.0
+people_in_debt,2023,Hattem,Municipality,GM0244,402.0
+people_in_debt,2019,Heemskerk,Municipality,GM0396,259.0
+people_in_debt,2020,Heemskerk,Municipality,GM0396,283.0
+people_in_debt,2021,Heemskerk,Municipality,GM0396,307.0
+people_in_debt,2022,Heemskerk,Municipality,GM0396,339.0
+people_in_debt,2023,Heemskerk,Municipality,GM0396,403.0
+people_in_debt,2019,Heemstede,Municipality,GM0397,475.0
+people_in_debt,2020,Heemstede,Municipality,GM0397,519.0
+people_in_debt,2021,Heemstede,Municipality,GM0397,548.0
+people_in_debt,2022,Heemstede,Municipality,GM0397,593.0
+people_in_debt,2023,Heemstede,Municipality,GM0397,677.0
+people_in_debt,2019,Heerde,Municipality,GM0246,275.0
+people_in_debt,2020,Heerde,Municipality,GM0246,293.0
+people_in_debt,2021,Heerde,Municipality,GM0246,319.0
+people_in_debt,2022,Heerde,Municipality,GM0246,340.0
+people_in_debt,2023,Heerde,Municipality,GM0246,406.0
+people_in_debt,2019,Heerenveen,Municipality,GM0074,213.0
+people_in_debt,2020,Heerenveen,Municipality,GM0074,229.0
+people_in_debt,2021,Heerenveen,Municipality,GM0074,246.0
+people_in_debt,2022,Heerenveen,Municipality,GM0074,269.0
+people_in_debt,2023,Heerenveen,Municipality,GM0074,315.0
+people_in_debt,2019,Heerhugowaard,Municipality,GM0398,228.0
+people_in_debt,2020,Heerhugowaard,Municipality,GM0398,251.0
+people_in_debt,2021,Heerhugowaard,Municipality,GM0398,270.0
+people_in_debt,2022,Heerhugowaard,Municipality,GM0398,
+people_in_debt,2023,Heerhugowaard,Municipality,GM0398,
+people_in_debt,2019,Heerlen,Municipality,GM0917,138.0
+people_in_debt,2020,Heerlen,Municipality,GM0917,150.0
+people_in_debt,2021,Heerlen,Municipality,GM0917,159.0
+people_in_debt,2022,Heerlen,Municipality,GM0917,171.0
+people_in_debt,2023,Heerlen,Municipality,GM0917,203.0
+people_in_debt,2019,Heeze-Leende,Municipality,GM1658,343.0
+people_in_debt,2020,Heeze-Leende,Municipality,GM1658,361.0
+people_in_debt,2021,Heeze-Leende,Municipality,GM1658,380.0
+people_in_debt,2022,Heeze-Leende,Municipality,GM1658,412.0
+people_in_debt,2023,Heeze-Leende,Municipality,GM1658,458.0
+people_in_debt,2019,Heiloo,Municipality,GM0399,337.0
+people_in_debt,2020,Heiloo,Municipality,GM0399,359.0
+people_in_debt,2021,Heiloo,Municipality,GM0399,385.0
+people_in_debt,2022,Heiloo,Municipality,GM0399,420.0
+people_in_debt,2023,Heiloo,Municipality,GM0399,507.0
+people_in_debt,2019,Den Helder,Municipality,GM0400,153.0
+people_in_debt,2020,Den Helder,Municipality,GM0400,161.0
+people_in_debt,2021,Den Helder,Municipality,GM0400,171.0
+people_in_debt,2022,Den Helder,Municipality,GM0400,185.0
+people_in_debt,2023,Den Helder,Municipality,GM0400,223.0
+people_in_debt,2019,Hellendoorn,Municipality,GM0163,248.0
+people_in_debt,2020,Hellendoorn,Municipality,GM0163,263.0
+people_in_debt,2021,Hellendoorn,Municipality,GM0163,283.0
+people_in_debt,2022,Hellendoorn,Municipality,GM0163,328.0
+people_in_debt,2023,Hellendoorn,Municipality,GM0163,363.0
+people_in_debt,2019,Hellevoetsluis,Municipality,GM0530,213.0
+people_in_debt,2020,Hellevoetsluis,Municipality,GM0530,230.0
+people_in_debt,2021,Hellevoetsluis,Municipality,GM0530,245.0
+people_in_debt,2022,Hellevoetsluis,Municipality,GM0530,271.0
+people_in_debt,2023,Hellevoetsluis,Municipality,GM0530,
+people_in_debt,2019,Helmond,Municipality,GM0794,215.0
+people_in_debt,2020,Helmond,Municipality,GM0794,231.0
+people_in_debt,2021,Helmond,Municipality,GM0794,245.0
+people_in_debt,2022,Helmond,Municipality,GM0794,275.0
+people_in_debt,2023,Helmond,Municipality,GM0794,312.0
+people_in_debt,2019,Hendrik-Ido-Ambacht,Municipality,GM0531,254.0
+people_in_debt,2020,Hendrik-Ido-Ambacht,Municipality,GM0531,281.0
+people_in_debt,2021,Hendrik-Ido-Ambacht,Municipality,GM0531,308.0
+people_in_debt,2022,Hendrik-Ido-Ambacht,Municipality,GM0531,333.0
+people_in_debt,2023,Hendrik-Ido-Ambacht,Municipality,GM0531,398.0
+people_in_debt,2019,Hengelo (O.),Municipality,GM0164,188.0
+people_in_debt,2020,Hengelo (O.),Municipality,GM0164,202.0
+people_in_debt,2021,Hengelo (O.),Municipality,GM0164,221.0
+people_in_debt,2022,Hengelo (O.),Municipality,GM0164,243.0
+people_in_debt,2023,Hengelo (O.),Municipality,GM0164,292.0
+people_in_debt,2019,'s-Hertogenbosch,Municipality,GM0796,281.0
+people_in_debt,2020,'s-Hertogenbosch,Municipality,GM0796,298.0
+people_in_debt,2021,'s-Hertogenbosch,Municipality,GM0796,318.0
+people_in_debt,2022,'s-Hertogenbosch,Municipality,GM0796,341.0
+people_in_debt,2023,'s-Hertogenbosch,Municipality,GM0796,398.0
+people_in_debt,2019,Heumen,Municipality,GM0252,283.0
+people_in_debt,2020,Heumen,Municipality,GM0252,306.0
+people_in_debt,2021,Heumen,Municipality,GM0252,319.0
+people_in_debt,2022,Heumen,Municipality,GM0252,351.0
+people_in_debt,2023,Heumen,Municipality,GM0252,396.0
+people_in_debt,2019,Heusden,Municipality,GM0797,278.0
+people_in_debt,2020,Heusden,Municipality,GM0797,293.0
+people_in_debt,2021,Heusden,Municipality,GM0797,311.0
+people_in_debt,2022,Heusden,Municipality,GM0797,344.0
+people_in_debt,2023,Heusden,Municipality,GM0797,407.0
+people_in_debt,2019,Hillegom,Municipality,GM0534,260.0
+people_in_debt,2020,Hillegom,Municipality,GM0534,292.0
+people_in_debt,2021,Hillegom,Municipality,GM0534,319.0
+people_in_debt,2022,Hillegom,Municipality,GM0534,346.0
+people_in_debt,2023,Hillegom,Municipality,GM0534,403.0
+people_in_debt,2019,Hilvarenbeek,Municipality,GM0798,316.0
+people_in_debt,2020,Hilvarenbeek,Municipality,GM0798,335.0
+people_in_debt,2021,Hilvarenbeek,Municipality,GM0798,355.0
+people_in_debt,2022,Hilvarenbeek,Municipality,GM0798,389.0
+people_in_debt,2023,Hilvarenbeek,Municipality,GM0798,454.0
+people_in_debt,2019,Hilversum,Municipality,GM0402,315.0
+people_in_debt,2020,Hilversum,Municipality,GM0402,335.0
+people_in_debt,2021,Hilversum,Municipality,GM0402,358.0
+people_in_debt,2022,Hilversum,Municipality,GM0402,398.0
+people_in_debt,2023,Hilversum,Municipality,GM0402,454.0
+people_in_debt,2019,Hoeksche Waard,Municipality,GM1963,248.0
+people_in_debt,2020,Hoeksche Waard,Municipality,GM1963,266.0
+people_in_debt,2021,Hoeksche Waard,Municipality,GM1963,281.0
+people_in_debt,2022,Hoeksche Waard,Municipality,GM1963,309.0
+people_in_debt,2023,Hoeksche Waard,Municipality,GM1963,361.0
+people_in_debt,2019,Hof van Twente,Municipality,GM1735,257.0
+people_in_debt,2020,Hof van Twente,Municipality,GM1735,267.0
+people_in_debt,2021,Hof van Twente,Municipality,GM1735,281.0
+people_in_debt,2022,Hof van Twente,Municipality,GM1735,307.0
+people_in_debt,2023,Hof van Twente,Municipality,GM1735,344.0
+people_in_debt,2019,Het Hogeland,Municipality,GM1966,170.0
+people_in_debt,2020,Het Hogeland,Municipality,GM1966,180.0
+people_in_debt,2021,Het Hogeland,Municipality,GM1966,191.0
+people_in_debt,2022,Het Hogeland,Municipality,GM1966,214.0
+people_in_debt,2023,Het Hogeland,Municipality,GM1966,251.0
+people_in_debt,2019,Hollands Kroon,Municipality,GM1911,225.0
+people_in_debt,2020,Hollands Kroon,Municipality,GM1911,233.0
+people_in_debt,2021,Hollands Kroon,Municipality,GM1911,256.0
+people_in_debt,2022,Hollands Kroon,Municipality,GM1911,290.0
+people_in_debt,2023,Hollands Kroon,Municipality,GM1911,332.0
+people_in_debt,2019,Hoogeveen,Municipality,GM0118,178.0
+people_in_debt,2020,Hoogeveen,Municipality,GM0118,189.0
+people_in_debt,2021,Hoogeveen,Municipality,GM0118,202.0
+people_in_debt,2022,Hoogeveen,Municipality,GM0118,221.0
+people_in_debt,2023,Hoogeveen,Municipality,GM0118,256.0
+people_in_debt,2019,Hoorn,Municipality,GM0405,212.0
+people_in_debt,2020,Hoorn,Municipality,GM0405,234.0
+people_in_debt,2021,Hoorn,Municipality,GM0405,256.0
+people_in_debt,2022,Hoorn,Municipality,GM0405,288.0
+people_in_debt,2023,Hoorn,Municipality,GM0405,331.0
+people_in_debt,2019,Horst aan de Maas,Municipality,GM1507,255.0
+people_in_debt,2020,Horst aan de Maas,Municipality,GM1507,265.0
+people_in_debt,2021,Horst aan de Maas,Municipality,GM1507,279.0
+people_in_debt,2022,Horst aan de Maas,Municipality,GM1507,295.0
+people_in_debt,2023,Horst aan de Maas,Municipality,GM1507,324.0
+people_in_debt,2019,Houten,Municipality,GM0321,323.0
+people_in_debt,2020,Houten,Municipality,GM0321,351.0
+people_in_debt,2021,Houten,Municipality,GM0321,378.0
+people_in_debt,2022,Houten,Municipality,GM0321,418.0
+people_in_debt,2023,Houten,Municipality,GM0321,504.0
+people_in_debt,2019,Huizen,Municipality,GM0406,306.0
+people_in_debt,2020,Huizen,Municipality,GM0406,330.0
+people_in_debt,2021,Huizen,Municipality,GM0406,355.0
+people_in_debt,2022,Huizen,Municipality,GM0406,392.0
+people_in_debt,2023,Huizen,Municipality,GM0406,449.0
+people_in_debt,2019,Hulst,Municipality,GM0677,209.0
+people_in_debt,2020,Hulst,Municipality,GM0677,217.0
+people_in_debt,2021,Hulst,Municipality,GM0677,227.0
+people_in_debt,2022,Hulst,Municipality,GM0677,246.0
+people_in_debt,2023,Hulst,Municipality,GM0677,277.0
+people_in_debt,2019,IJsselstein,Municipality,GM0353,264.0
+people_in_debt,2020,IJsselstein,Municipality,GM0353,289.0
+people_in_debt,2021,IJsselstein,Municipality,GM0353,315.0
+people_in_debt,2022,IJsselstein,Municipality,GM0353,346.0
+people_in_debt,2023,IJsselstein,Municipality,GM0353,402.0
+people_in_debt,2019,Kaag en Braassem,Municipality,GM1884,298.0
+people_in_debt,2020,Kaag en Braassem,Municipality,GM1884,325.0
+people_in_debt,2021,Kaag en Braassem,Municipality,GM1884,347.0
+people_in_debt,2022,Kaag en Braassem,Municipality,GM1884,379.0
+people_in_debt,2023,Kaag en Braassem,Municipality,GM1884,448.0
+people_in_debt,2019,Kampen,Municipality,GM0166,220.0
+people_in_debt,2020,Kampen,Municipality,GM0166,234.0
+people_in_debt,2021,Kampen,Municipality,GM0166,250.0
+people_in_debt,2022,Kampen,Municipality,GM0166,275.0
+people_in_debt,2023,Kampen,Municipality,GM0166,314.0
+people_in_debt,2019,Kapelle,Municipality,GM0678,241.0
+people_in_debt,2020,Kapelle,Municipality,GM0678,251.0
+people_in_debt,2021,Kapelle,Municipality,GM0678,265.0
+people_in_debt,2022,Kapelle,Municipality,GM0678,291.0
+people_in_debt,2023,Kapelle,Municipality,GM0678,332.0
+people_in_debt,2019,Katwijk,Municipality,GM0537,288.0
+people_in_debt,2020,Katwijk,Municipality,GM0537,319.0
+people_in_debt,2021,Katwijk,Municipality,GM0537,337.0
+people_in_debt,2022,Katwijk,Municipality,GM0537,364.0
+people_in_debt,2023,Katwijk,Municipality,GM0537,419.0
+people_in_debt,2019,Kerkrade,Municipality,GM0928,142.0
+people_in_debt,2020,Kerkrade,Municipality,GM0928,153.0
+people_in_debt,2021,Kerkrade,Municipality,GM0928,163.0
+people_in_debt,2022,Kerkrade,Municipality,GM0928,171.0
+people_in_debt,2023,Kerkrade,Municipality,GM0928,200.0
+people_in_debt,2019,Koggenland,Municipality,GM1598,260.0
+people_in_debt,2020,Koggenland,Municipality,GM1598,275.0
+people_in_debt,2021,Koggenland,Municipality,GM1598,298.0
+people_in_debt,2022,Koggenland,Municipality,GM1598,332.0
+people_in_debt,2023,Koggenland,Municipality,GM1598,378.0
+people_in_debt,2019,Krimpen aan den IJssel,Municipality,GM0542,245.0
+people_in_debt,2020,Krimpen aan den IJssel,Municipality,GM0542,265.0
+people_in_debt,2021,Krimpen aan den IJssel,Municipality,GM0542,289.0
+people_in_debt,2022,Krimpen aan den IJssel,Municipality,GM0542,316.0
+people_in_debt,2023,Krimpen aan den IJssel,Municipality,GM0542,354.0
+people_in_debt,2019,Krimpenerwaard,Municipality,GM1931,258.0
+people_in_debt,2020,Krimpenerwaard,Municipality,GM1931,275.0
+people_in_debt,2021,Krimpenerwaard,Municipality,GM1931,295.0
+people_in_debt,2022,Krimpenerwaard,Municipality,GM1931,331.0
+people_in_debt,2023,Krimpenerwaard,Municipality,GM1931,388.0
+people_in_debt,2019,Laarbeek,Municipality,GM1659,276.0
+people_in_debt,2020,Laarbeek,Municipality,GM1659,298.0
+people_in_debt,2021,Laarbeek,Municipality,GM1659,306.0
+people_in_debt,2022,Laarbeek,Municipality,GM1659,340.0
+people_in_debt,2023,Laarbeek,Municipality,GM1659,395.0
+people_in_debt,2019,Land van Cuijk,Municipality,GM1982,
+people_in_debt,2020,Land van Cuijk,Municipality,GM1982,
+people_in_debt,2021,Land van Cuijk,Municipality,GM1982,
+people_in_debt,2022,Land van Cuijk,Municipality,GM1982,302.0
+people_in_debt,2023,Land van Cuijk,Municipality,GM1982,346.0
+people_in_debt,2019,Landerd,Municipality,GM1685,306.0
+people_in_debt,2020,Landerd,Municipality,GM1685,331.0
+people_in_debt,2021,Landerd,Municipality,GM1685,337.0
+people_in_debt,2022,Landerd,Municipality,GM1685,
+people_in_debt,2023,Landerd,Municipality,GM1685,
+people_in_debt,2019,Landgraaf,Municipality,GM0882,171.0
+people_in_debt,2020,Landgraaf,Municipality,GM0882,184.0
+people_in_debt,2021,Landgraaf,Municipality,GM0882,197.0
+people_in_debt,2022,Landgraaf,Municipality,GM0882,212.0
+people_in_debt,2023,Landgraaf,Municipality,GM0882,249.0
+people_in_debt,2019,Landsmeer,Municipality,GM0415,401.0
+people_in_debt,2020,Landsmeer,Municipality,GM0415,443.0
+people_in_debt,2021,Landsmeer,Municipality,GM0415,459.0
+people_in_debt,2022,Landsmeer,Municipality,GM0415,492.0
+people_in_debt,2023,Landsmeer,Municipality,GM0415,581.0
+people_in_debt,2019,Langedijk,Municipality,GM0416,271.0
+people_in_debt,2020,Langedijk,Municipality,GM0416,293.0
+people_in_debt,2021,Langedijk,Municipality,GM0416,311.0
+people_in_debt,2022,Langedijk,Municipality,GM0416,
+people_in_debt,2023,Langedijk,Municipality,GM0416,
+people_in_debt,2019,Lansingerland,Municipality,GM1621,326.0
+people_in_debt,2020,Lansingerland,Municipality,GM1621,355.0
+people_in_debt,2021,Lansingerland,Municipality,GM1621,380.0
+people_in_debt,2022,Lansingerland,Municipality,GM1621,410.0
+people_in_debt,2023,Lansingerland,Municipality,GM1621,479.0
+people_in_debt,2019,Laren (NH.),Municipality,GM0417,610.0
+people_in_debt,2020,Laren (NH.),Municipality,GM0417,660.0
+people_in_debt,2021,Laren (NH.),Municipality,GM0417,711.0
+people_in_debt,2022,Laren (NH.),Municipality,GM0417,781.0
+people_in_debt,2023,Laren (NH.),Municipality,GM0417,898.0
+people_in_debt,2019,Leeuwarden,Municipality,GM0080,156.0
+people_in_debt,2020,Leeuwarden,Municipality,GM0080,167.0
+people_in_debt,2021,Leeuwarden,Municipality,GM0080,183.0
+people_in_debt,2022,Leeuwarden,Municipality,GM0080,204.0
+people_in_debt,2023,Leeuwarden,Municipality,GM0080,235.0
+people_in_debt,2019,Leiden,Municipality,GM0546,264.0
+people_in_debt,2020,Leiden,Municipality,GM0546,292.0
+people_in_debt,2021,Leiden,Municipality,GM0546,313.0
+people_in_debt,2022,Leiden,Municipality,GM0546,345.0
+people_in_debt,2023,Leiden,Municipality,GM0546,390.0
+people_in_debt,2019,Leiderdorp,Municipality,GM0547,281.0
+people_in_debt,2020,Leiderdorp,Municipality,GM0547,305.0
+people_in_debt,2021,Leiderdorp,Municipality,GM0547,334.0
+people_in_debt,2022,Leiderdorp,Municipality,GM0547,362.0
+people_in_debt,2023,Leiderdorp,Municipality,GM0547,413.0
+people_in_debt,2019,Leidschendam-Voorburg,Municipality,GM1916,272.0
+people_in_debt,2020,Leidschendam-Voorburg,Municipality,GM1916,291.0
+people_in_debt,2021,Leidschendam-Voorburg,Municipality,GM1916,315.0
+people_in_debt,2022,Leidschendam-Voorburg,Municipality,GM1916,340.0
+people_in_debt,2023,Leidschendam-Voorburg,Municipality,GM1916,380.0
+people_in_debt,2019,Lelystad,Municipality,GM0995,190.0
+people_in_debt,2020,Lelystad,Municipality,GM0995,211.0
+people_in_debt,2021,Lelystad,Municipality,GM0995,228.0
+people_in_debt,2022,Lelystad,Municipality,GM0995,259.0
+people_in_debt,2023,Lelystad,Municipality,GM0995,327.0
+people_in_debt,2019,Leudal,Municipality,GM1640,239.0
+people_in_debt,2020,Leudal,Municipality,GM1640,250.0
+people_in_debt,2021,Leudal,Municipality,GM1640,264.0
+people_in_debt,2022,Leudal,Municipality,GM1640,281.0
+people_in_debt,2023,Leudal,Municipality,GM1640,336.0
+people_in_debt,2019,Leusden,Municipality,GM0327,321.0
+people_in_debt,2020,Leusden,Municipality,GM0327,341.0
+people_in_debt,2021,Leusden,Municipality,GM0327,360.0
+people_in_debt,2022,Leusden,Municipality,GM0327,391.0
+people_in_debt,2023,Leusden,Municipality,GM0327,449.0
+people_in_debt,2019,Lingewaard,Municipality,GM1705,255.0
+people_in_debt,2020,Lingewaard,Municipality,GM1705,273.0
+people_in_debt,2021,Lingewaard,Municipality,GM1705,293.0
+people_in_debt,2022,Lingewaard,Municipality,GM1705,326.0
+people_in_debt,2023,Lingewaard,Municipality,GM1705,373.0
+people_in_debt,2019,Lisse,Municipality,GM0553,277.0
+people_in_debt,2020,Lisse,Municipality,GM0553,303.0
+people_in_debt,2021,Lisse,Municipality,GM0553,324.0
+people_in_debt,2022,Lisse,Municipality,GM0553,357.0
+people_in_debt,2023,Lisse,Municipality,GM0553,405.0
+people_in_debt,2019,Lochem,Municipality,GM0262,307.0
+people_in_debt,2020,Lochem,Municipality,GM0262,328.0
+people_in_debt,2021,Lochem,Municipality,GM0262,342.0
+people_in_debt,2022,Lochem,Municipality,GM0262,373.0
+people_in_debt,2023,Lochem,Municipality,GM0262,459.0
+people_in_debt,2019,Loon op Zand,Municipality,GM0809,256.0
+people_in_debt,2020,Loon op Zand,Municipality,GM0809,271.0
+people_in_debt,2021,Loon op Zand,Municipality,GM0809,287.0
+people_in_debt,2022,Loon op Zand,Municipality,GM0809,312.0
+people_in_debt,2023,Loon op Zand,Municipality,GM0809,364.0
+people_in_debt,2019,Lopik,Municipality,GM0331,294.0
+people_in_debt,2020,Lopik,Municipality,GM0331,313.0
+people_in_debt,2021,Lopik,Municipality,GM0331,347.0
+people_in_debt,2022,Lopik,Municipality,GM0331,384.0
+people_in_debt,2023,Lopik,Municipality,GM0331,445.0
+people_in_debt,2019,Loppersum,Municipality,GM0024,161.0
+people_in_debt,2020,Loppersum,Municipality,GM0024,175.0
+people_in_debt,2021,Loppersum,Municipality,GM0024,
+people_in_debt,2022,Loppersum,Municipality,GM0024,
+people_in_debt,2023,Loppersum,Municipality,GM0024,
+people_in_debt,2019,Losser,Municipality,GM0168,234.0
+people_in_debt,2020,Losser,Municipality,GM0168,249.0
+people_in_debt,2021,Losser,Municipality,GM0168,267.0
+people_in_debt,2022,Losser,Municipality,GM0168,296.0
+people_in_debt,2023,Losser,Municipality,GM0168,353.0
+people_in_debt,2019,Maasdriel,Municipality,GM0263,283.0
+people_in_debt,2020,Maasdriel,Municipality,GM0263,299.0
+people_in_debt,2021,Maasdriel,Municipality,GM0263,318.0
+people_in_debt,2022,Maasdriel,Municipality,GM0263,348.0
+people_in_debt,2023,Maasdriel,Municipality,GM0263,405.0
+people_in_debt,2019,Maasgouw,Municipality,GM1641,224.0
+people_in_debt,2020,Maasgouw,Municipality,GM1641,239.0
+people_in_debt,2021,Maasgouw,Municipality,GM1641,253.0
+people_in_debt,2022,Maasgouw,Municipality,GM1641,272.0
+people_in_debt,2023,Maasgouw,Municipality,GM1641,317.0
+people_in_debt,2019,Maashorst,Municipality,GM1991,
+people_in_debt,2020,Maashorst,Municipality,GM1991,
+people_in_debt,2021,Maashorst,Municipality,GM1991,
+people_in_debt,2022,Maashorst,Municipality,GM1991,336.0
+people_in_debt,2023,Maashorst,Municipality,GM1991,385.0
+people_in_debt,2019,Maassluis,Municipality,GM0556,208.0
+people_in_debt,2020,Maassluis,Municipality,GM0556,224.0
+people_in_debt,2021,Maassluis,Municipality,GM0556,245.0
+people_in_debt,2022,Maassluis,Municipality,GM0556,266.0
+people_in_debt,2023,Maassluis,Municipality,GM0556,304.0
+people_in_debt,2019,Maastricht,Municipality,GM0935,209.0
+people_in_debt,2020,Maastricht,Municipality,GM0935,224.0
+people_in_debt,2021,Maastricht,Municipality,GM0935,238.0
+people_in_debt,2022,Maastricht,Municipality,GM0935,258.0
+people_in_debt,2023,Maastricht,Municipality,GM0935,302.0
+people_in_debt,2019,Medemblik,Municipality,GM0420,243.0
+people_in_debt,2020,Medemblik,Municipality,GM0420,269.0
+people_in_debt,2021,Medemblik,Municipality,GM0420,289.0
+people_in_debt,2022,Medemblik,Municipality,GM0420,325.0
+people_in_debt,2023,Medemblik,Municipality,GM0420,376.0
+people_in_debt,2019,Meerssen,Municipality,GM0938,250.0
+people_in_debt,2020,Meerssen,Municipality,GM0938,266.0
+people_in_debt,2021,Meerssen,Municipality,GM0938,281.0
+people_in_debt,2022,Meerssen,Municipality,GM0938,299.0
+people_in_debt,2023,Meerssen,Municipality,GM0938,352.0
+people_in_debt,2019,Meierijstad,Municipality,GM1948,281.0
+people_in_debt,2020,Meierijstad,Municipality,GM1948,293.0
+people_in_debt,2021,Meierijstad,Municipality,GM1948,312.0
+people_in_debt,2022,Meierijstad,Municipality,GM1948,345.0
+people_in_debt,2023,Meierijstad,Municipality,GM1948,405.0
+people_in_debt,2019,Meppel,Municipality,GM0119,200.0
+people_in_debt,2020,Meppel,Municipality,GM0119,213.0
+people_in_debt,2021,Meppel,Municipality,GM0119,227.0
+people_in_debt,2022,Meppel,Municipality,GM0119,249.0
+people_in_debt,2023,Meppel,Municipality,GM0119,289.0
+people_in_debt,2019,Middelburg (Z.),Municipality,GM0687,189.0
+people_in_debt,2020,Middelburg (Z.),Municipality,GM0687,200.0
+people_in_debt,2021,Middelburg (Z.),Municipality,GM0687,213.0
+people_in_debt,2022,Middelburg (Z.),Municipality,GM0687,231.0
+people_in_debt,2023,Middelburg (Z.),Municipality,GM0687,259.0
+people_in_debt,2019,Midden-Delfland,Municipality,GM1842,324.0
+people_in_debt,2020,Midden-Delfland,Municipality,GM1842,356.0
+people_in_debt,2021,Midden-Delfland,Municipality,GM1842,385.0
+people_in_debt,2022,Midden-Delfland,Municipality,GM1842,419.0
+people_in_debt,2023,Midden-Delfland,Municipality,GM1842,469.0
+people_in_debt,2019,Midden-Drenthe,Municipality,GM1731,220.0
+people_in_debt,2020,Midden-Drenthe,Municipality,GM1731,231.0
+people_in_debt,2021,Midden-Drenthe,Municipality,GM1731,244.0
+people_in_debt,2022,Midden-Drenthe,Municipality,GM1731,265.0
+people_in_debt,2023,Midden-Drenthe,Municipality,GM1731,299.0
+people_in_debt,2019,Midden-Groningen,Municipality,GM1952,167.0
+people_in_debt,2020,Midden-Groningen,Municipality,GM1952,175.0
+people_in_debt,2021,Midden-Groningen,Municipality,GM1952,188.0
+people_in_debt,2022,Midden-Groningen,Municipality,GM1952,206.0
+people_in_debt,2023,Midden-Groningen,Municipality,GM1952,239.0
+people_in_debt,2019,Mill en Sint Hubert,Municipality,GM0815,266.0
+people_in_debt,2020,Mill en Sint Hubert,Municipality,GM0815,279.0
+people_in_debt,2021,Mill en Sint Hubert,Municipality,GM0815,295.0
+people_in_debt,2022,Mill en Sint Hubert,Municipality,GM0815,
+people_in_debt,2023,Mill en Sint Hubert,Municipality,GM0815,
+people_in_debt,2019,Moerdijk,Municipality,GM1709,233.0
+people_in_debt,2020,Moerdijk,Municipality,GM1709,247.0
+people_in_debt,2021,Moerdijk,Municipality,GM1709,263.0
+people_in_debt,2022,Moerdijk,Municipality,GM1709,282.0
+people_in_debt,2023,Moerdijk,Municipality,GM1709,335.0
+people_in_debt,2019,Molenlanden,Municipality,GM1978,281.0
+people_in_debt,2020,Molenlanden,Municipality,GM1978,290.0
+people_in_debt,2021,Molenlanden,Municipality,GM1978,311.0
+people_in_debt,2022,Molenlanden,Municipality,GM1978,345.0
+people_in_debt,2023,Molenlanden,Municipality,GM1978,389.0
+people_in_debt,2019,Montferland,Municipality,GM1955,212.0
+people_in_debt,2020,Montferland,Municipality,GM1955,221.0
+people_in_debt,2021,Montferland,Municipality,GM1955,234.0
+people_in_debt,2022,Montferland,Municipality,GM1955,253.0
+people_in_debt,2023,Montferland,Municipality,GM1955,282.0
+people_in_debt,2019,Montfoort,Municipality,GM0335,295.0
+people_in_debt,2020,Montfoort,Municipality,GM0335,316.0
+people_in_debt,2021,Montfoort,Municipality,GM0335,338.0
+people_in_debt,2022,Montfoort,Municipality,GM0335,370.0
+people_in_debt,2023,Montfoort,Municipality,GM0335,427.0
+people_in_debt,2019,Mook en Middelaar,Municipality,GM0944,293.0
+people_in_debt,2020,Mook en Middelaar,Municipality,GM0944,310.0
+people_in_debt,2021,Mook en Middelaar,Municipality,GM0944,325.0
+people_in_debt,2022,Mook en Middelaar,Municipality,GM0944,349.0
+people_in_debt,2023,Mook en Middelaar,Municipality,GM0944,424.0
+people_in_debt,2019,Neder-Betuwe,Municipality,GM1740,247.0
+people_in_debt,2020,Neder-Betuwe,Municipality,GM1740,261.0
+people_in_debt,2021,Neder-Betuwe,Municipality,GM1740,283.0
+people_in_debt,2022,Neder-Betuwe,Municipality,GM1740,309.0
+people_in_debt,2023,Neder-Betuwe,Municipality,GM1740,355.0
+people_in_debt,2019,Nederweert,Municipality,GM0946,277.0
+people_in_debt,2020,Nederweert,Municipality,GM0946,295.0
+people_in_debt,2021,Nederweert,Municipality,GM0946,303.0
+people_in_debt,2022,Nederweert,Municipality,GM0946,315.0
+people_in_debt,2023,Nederweert,Municipality,GM0946,372.0
+people_in_debt,2019,Nieuwegein,Municipality,GM0356,235.0
+people_in_debt,2020,Nieuwegein,Municipality,GM0356,252.0
+people_in_debt,2021,Nieuwegein,Municipality,GM0356,269.0
+people_in_debt,2022,Nieuwegein,Municipality,GM0356,292.0
+people_in_debt,2023,Nieuwegein,Municipality,GM0356,349.0
+people_in_debt,2019,Nieuwkoop,Municipality,GM0569,302.0
+people_in_debt,2020,Nieuwkoop,Municipality,GM0569,324.0
+people_in_debt,2021,Nieuwkoop,Municipality,GM0569,344.0
+people_in_debt,2022,Nieuwkoop,Municipality,GM0569,378.0
+people_in_debt,2023,Nieuwkoop,Municipality,GM0569,447.0
+people_in_debt,2019,Nijkerk,Municipality,GM0267,312.0
+people_in_debt,2020,Nijkerk,Municipality,GM0267,333.0
+people_in_debt,2021,Nijkerk,Municipality,GM0267,357.0
+people_in_debt,2022,Nijkerk,Municipality,GM0267,387.0
+people_in_debt,2023,Nijkerk,Municipality,GM0267,443.0
+people_in_debt,2019,Nijmegen,Municipality,GM0268,234.0
+people_in_debt,2020,Nijmegen,Municipality,GM0268,252.0
+people_in_debt,2021,Nijmegen,Municipality,GM0268,273.0
+people_in_debt,2022,Nijmegen,Municipality,GM0268,308.0
+people_in_debt,2023,Nijmegen,Municipality,GM0268,362.0
+people_in_debt,2019,Nissewaard,Municipality,GM1930,186.0
+people_in_debt,2020,Nissewaard,Municipality,GM1930,204.0
+people_in_debt,2021,Nissewaard,Municipality,GM1930,218.0
+people_in_debt,2022,Nissewaard,Municipality,GM1930,242.0
+people_in_debt,2023,Nissewaard,Municipality,GM1930,279.0
+people_in_debt,2019,Noardeast-Fryslân,Municipality,GM1970,171.0
+people_in_debt,2020,Noardeast-Fryslân,Municipality,GM1970,178.0
+people_in_debt,2021,Noardeast-Fryslân,Municipality,GM1970,194.0
+people_in_debt,2022,Noardeast-Fryslân,Municipality,GM1970,232.0
+people_in_debt,2023,Noardeast-Fryslân,Municipality,GM1970,271.0
+people_in_debt,2019,Noord-Beveland,Municipality,GM1695,221.0
+people_in_debt,2020,Noord-Beveland,Municipality,GM1695,234.0
+people_in_debt,2021,Noord-Beveland,Municipality,GM1695,246.0
+people_in_debt,2022,Noord-Beveland,Municipality,GM1695,270.0
+people_in_debt,2023,Noord-Beveland,Municipality,GM1695,302.0
+people_in_debt,2019,Noordenveld,Municipality,GM1699,235.0
+people_in_debt,2020,Noordenveld,Municipality,GM1699,254.0
+people_in_debt,2021,Noordenveld,Municipality,GM1699,271.0
+people_in_debt,2022,Noordenveld,Municipality,GM1699,300.0
+people_in_debt,2023,Noordenveld,Municipality,GM1699,355.0
+people_in_debt,2019,Noordoostpolder,Municipality,GM0171,214.0
+people_in_debt,2020,Noordoostpolder,Municipality,GM0171,227.0
+people_in_debt,2021,Noordoostpolder,Municipality,GM0171,239.0
+people_in_debt,2022,Noordoostpolder,Municipality,GM0171,262.0
+people_in_debt,2023,Noordoostpolder,Municipality,GM0171,310.0
+people_in_debt,2019,Noordwijk,Municipality,GM0575,333.0
+people_in_debt,2020,Noordwijk,Municipality,GM0575,361.0
+people_in_debt,2021,Noordwijk,Municipality,GM0575,388.0
+people_in_debt,2022,Noordwijk,Municipality,GM0575,431.0
+people_in_debt,2023,Noordwijk,Municipality,GM0575,489.0
+people_in_debt,2019,"Nuenen, Gerwen en Nederwetten",Municipality,GM0820,327.0
+people_in_debt,2020,"Nuenen, Gerwen en Nederwetten",Municipality,GM0820,351.0
+people_in_debt,2021,"Nuenen, Gerwen en Nederwetten",Municipality,GM0820,370.0
+people_in_debt,2022,"Nuenen, Gerwen en Nederwetten",Municipality,GM0820,403.0
+people_in_debt,2023,"Nuenen, Gerwen en Nederwetten",Municipality,GM0820,471.0
+people_in_debt,2019,Nunspeet,Municipality,GM0302,284.0
+people_in_debt,2020,Nunspeet,Municipality,GM0302,300.0
+people_in_debt,2021,Nunspeet,Municipality,GM0302,320.0
+people_in_debt,2022,Nunspeet,Municipality,GM0302,353.0
+people_in_debt,2023,Nunspeet,Municipality,GM0302,396.0
+people_in_debt,2019,Oegstgeest,Municipality,GM0579,398.0
+people_in_debt,2020,Oegstgeest,Municipality,GM0579,434.0
+people_in_debt,2021,Oegstgeest,Municipality,GM0579,464.0
+people_in_debt,2022,Oegstgeest,Municipality,GM0579,502.0
+people_in_debt,2023,Oegstgeest,Municipality,GM0579,563.0
+people_in_debt,2019,Oirschot,Municipality,GM0823,326.0
+people_in_debt,2020,Oirschot,Municipality,GM0823,344.0
+people_in_debt,2021,Oirschot,Municipality,GM0823,373.0
+people_in_debt,2022,Oirschot,Municipality,GM0823,416.0
+people_in_debt,2023,Oirschot,Municipality,GM0823,466.0
+people_in_debt,2019,Oisterwijk,Municipality,GM0824,333.0
+people_in_debt,2020,Oisterwijk,Municipality,GM0824,354.0
+people_in_debt,2021,Oisterwijk,Municipality,GM0824,374.0
+people_in_debt,2022,Oisterwijk,Municipality,GM0824,413.0
+people_in_debt,2023,Oisterwijk,Municipality,GM0824,479.0
+people_in_debt,2019,Oldambt,Municipality,GM1895,151.0
+people_in_debt,2020,Oldambt,Municipality,GM1895,164.0
+people_in_debt,2021,Oldambt,Municipality,GM1895,182.0
+people_in_debt,2022,Oldambt,Municipality,GM1895,207.0
+people_in_debt,2023,Oldambt,Municipality,GM1895,254.0
+people_in_debt,2019,Oldebroek,Municipality,GM0269,268.0
+people_in_debt,2020,Oldebroek,Municipality,GM0269,286.0
+people_in_debt,2021,Oldebroek,Municipality,GM0269,303.0
+people_in_debt,2022,Oldebroek,Municipality,GM0269,325.0
+people_in_debt,2023,Oldebroek,Municipality,GM0269,362.0
+people_in_debt,2019,Oldenzaal,Municipality,GM0173,226.0
+people_in_debt,2020,Oldenzaal,Municipality,GM0173,240.0
+people_in_debt,2021,Oldenzaal,Municipality,GM0173,251.0
+people_in_debt,2022,Oldenzaal,Municipality,GM0173,280.0
+people_in_debt,2023,Oldenzaal,Municipality,GM0173,335.0
+people_in_debt,2019,Olst-Wijhe,Municipality,GM1773,249.0
+people_in_debt,2020,Olst-Wijhe,Municipality,GM1773,268.0
+people_in_debt,2021,Olst-Wijhe,Municipality,GM1773,287.0
+people_in_debt,2022,Olst-Wijhe,Municipality,GM1773,320.0
+people_in_debt,2023,Olst-Wijhe,Municipality,GM1773,370.0
+people_in_debt,2019,Ommen,Municipality,GM0175,256.0
+people_in_debt,2020,Ommen,Municipality,GM0175,268.0
+people_in_debt,2021,Ommen,Municipality,GM0175,284.0
+people_in_debt,2022,Ommen,Municipality,GM0175,319.0
+people_in_debt,2023,Ommen,Municipality,GM0175,389.0
+people_in_debt,2019,Oost Gelre,Municipality,GM1586,218.0
+people_in_debt,2020,Oost Gelre,Municipality,GM1586,230.0
+people_in_debt,2021,Oost Gelre,Municipality,GM1586,246.0
+people_in_debt,2022,Oost Gelre,Municipality,GM1586,261.0
+people_in_debt,2023,Oost Gelre,Municipality,GM1586,289.0
+people_in_debt,2019,Oosterhout,Municipality,GM0826,244.0
+people_in_debt,2020,Oosterhout,Municipality,GM0826,262.0
+people_in_debt,2021,Oosterhout,Municipality,GM0826,284.0
+people_in_debt,2022,Oosterhout,Municipality,GM0826,306.0
+people_in_debt,2023,Oosterhout,Municipality,GM0826,354.0
+people_in_debt,2019,Ooststellingwerf,Municipality,GM0085,207.0
+people_in_debt,2020,Ooststellingwerf,Municipality,GM0085,222.0
+people_in_debt,2021,Ooststellingwerf,Municipality,GM0085,240.0
+people_in_debt,2022,Ooststellingwerf,Municipality,GM0085,263.0
+people_in_debt,2023,Ooststellingwerf,Municipality,GM0085,303.0
+people_in_debt,2019,Oostzaan,Municipality,GM0431,320.0
+people_in_debt,2020,Oostzaan,Municipality,GM0431,356.0
+people_in_debt,2021,Oostzaan,Municipality,GM0431,386.0
+people_in_debt,2022,Oostzaan,Municipality,GM0431,411.0
+people_in_debt,2023,Oostzaan,Municipality,GM0431,475.0
+people_in_debt,2019,Opmeer,Municipality,GM0432,255.0
+people_in_debt,2020,Opmeer,Municipality,GM0432,271.0
+people_in_debt,2021,Opmeer,Municipality,GM0432,291.0
+people_in_debt,2022,Opmeer,Municipality,GM0432,321.0
+people_in_debt,2023,Opmeer,Municipality,GM0432,370.0
+people_in_debt,2019,Opsterland,Municipality,GM0086,224.0
+people_in_debt,2020,Opsterland,Municipality,GM0086,240.0
+people_in_debt,2021,Opsterland,Municipality,GM0086,261.0
+people_in_debt,2022,Opsterland,Municipality,GM0086,287.0
+people_in_debt,2023,Opsterland,Municipality,GM0086,332.0
+people_in_debt,2019,Oss,Municipality,GM0828,237.0
+people_in_debt,2020,Oss,Municipality,GM0828,256.0
+people_in_debt,2021,Oss,Municipality,GM0828,262.0
+people_in_debt,2022,Oss,Municipality,GM0828,296.0
+people_in_debt,2023,Oss,Municipality,GM0828,345.0
+people_in_debt,2019,Oude IJsselstreek,Municipality,GM1509,215.0
+people_in_debt,2020,Oude IJsselstreek,Municipality,GM1509,224.0
+people_in_debt,2021,Oude IJsselstreek,Municipality,GM1509,239.0
+people_in_debt,2022,Oude IJsselstreek,Municipality,GM1509,271.0
+people_in_debt,2023,Oude IJsselstreek,Municipality,GM1509,309.0
+people_in_debt,2019,Ouder-Amstel,Municipality,GM0437,399.0
+people_in_debt,2020,Ouder-Amstel,Municipality,GM0437,434.0
+people_in_debt,2021,Ouder-Amstel,Municipality,GM0437,468.0
+people_in_debt,2022,Ouder-Amstel,Municipality,GM0437,507.0
+people_in_debt,2023,Ouder-Amstel,Municipality,GM0437,559.0
+people_in_debt,2019,Oudewater,Municipality,GM0589,308.0
+people_in_debt,2020,Oudewater,Municipality,GM0589,324.0
+people_in_debt,2021,Oudewater,Municipality,GM0589,344.0
+people_in_debt,2022,Oudewater,Municipality,GM0589,369.0
+people_in_debt,2023,Oudewater,Municipality,GM0589,417.0
+people_in_debt,2019,Overbetuwe,Municipality,GM1734,248.0
+people_in_debt,2020,Overbetuwe,Municipality,GM1734,265.0
+people_in_debt,2021,Overbetuwe,Municipality,GM1734,287.0
+people_in_debt,2022,Overbetuwe,Municipality,GM1734,327.0
+people_in_debt,2023,Overbetuwe,Municipality,GM1734,383.0
+people_in_debt,2019,Papendrecht,Municipality,GM0590,218.0
+people_in_debt,2020,Papendrecht,Municipality,GM0590,237.0
+people_in_debt,2021,Papendrecht,Municipality,GM0590,258.0
+people_in_debt,2022,Papendrecht,Municipality,GM0590,276.0
+people_in_debt,2023,Papendrecht,Municipality,GM0590,332.0
+people_in_debt,2019,Peel en Maas,Municipality,GM1894,251.0
+people_in_debt,2020,Peel en Maas,Municipality,GM1894,266.0
+people_in_debt,2021,Peel en Maas,Municipality,GM1894,284.0
+people_in_debt,2022,Peel en Maas,Municipality,GM1894,299.0
+people_in_debt,2023,Peel en Maas,Municipality,GM1894,357.0
+people_in_debt,2019,Pekela,Municipality,GM0765,132.0
+people_in_debt,2020,Pekela,Municipality,GM0765,139.0
+people_in_debt,2021,Pekela,Municipality,GM0765,148.0
+people_in_debt,2022,Pekela,Municipality,GM0765,167.0
+people_in_debt,2023,Pekela,Municipality,GM0765,194.0
+people_in_debt,2019,Pijnacker-Nootdorp,Municipality,GM1926,321.0
+people_in_debt,2020,Pijnacker-Nootdorp,Municipality,GM1926,346.0
+people_in_debt,2021,Pijnacker-Nootdorp,Municipality,GM1926,368.0
+people_in_debt,2022,Pijnacker-Nootdorp,Municipality,GM1926,403.0
+people_in_debt,2023,Pijnacker-Nootdorp,Municipality,GM1926,481.0
+people_in_debt,2019,Purmerend,Municipality,GM0439,235.0
+people_in_debt,2020,Purmerend,Municipality,GM0439,261.0
+people_in_debt,2021,Purmerend,Municipality,GM0439,281.0
+people_in_debt,2022,Purmerend,Municipality,GM0439,329.0
+people_in_debt,2023,Purmerend,Municipality,GM0439,383.0
+people_in_debt,2019,Putten,Municipality,GM0273,325.0
+people_in_debt,2020,Putten,Municipality,GM0273,345.0
+people_in_debt,2021,Putten,Municipality,GM0273,367.0
+people_in_debt,2022,Putten,Municipality,GM0273,412.0
+people_in_debt,2023,Putten,Municipality,GM0273,489.0
+people_in_debt,2019,Raalte,Municipality,GM0177,253.0
+people_in_debt,2020,Raalte,Municipality,GM0177,269.0
+people_in_debt,2021,Raalte,Municipality,GM0177,288.0
+people_in_debt,2022,Raalte,Municipality,GM0177,317.0
+people_in_debt,2023,Raalte,Municipality,GM0177,369.0
+people_in_debt,2019,Reimerswaal,Municipality,GM0703,203.0
+people_in_debt,2020,Reimerswaal,Municipality,GM0703,211.0
+people_in_debt,2021,Reimerswaal,Municipality,GM0703,222.0
+people_in_debt,2022,Reimerswaal,Municipality,GM0703,235.0
+people_in_debt,2023,Reimerswaal,Municipality,GM0703,272.0
+people_in_debt,2019,Renkum,Municipality,GM0274,282.0
+people_in_debt,2020,Renkum,Municipality,GM0274,299.0
+people_in_debt,2021,Renkum,Municipality,GM0274,315.0
+people_in_debt,2022,Renkum,Municipality,GM0274,338.0
+people_in_debt,2023,Renkum,Municipality,GM0274,404.0
+people_in_debt,2019,Renswoude,Municipality,GM0339,323.0
+people_in_debt,2020,Renswoude,Municipality,GM0339,345.0
+people_in_debt,2021,Renswoude,Municipality,GM0339,369.0
+people_in_debt,2022,Renswoude,Municipality,GM0339,403.0
+people_in_debt,2023,Renswoude,Municipality,GM0339,497.0
+people_in_debt,2019,Reusel-De Mierden,Municipality,GM1667,291.0
+people_in_debt,2020,Reusel-De Mierden,Municipality,GM1667,307.0
+people_in_debt,2021,Reusel-De Mierden,Municipality,GM1667,325.0
+people_in_debt,2022,Reusel-De Mierden,Municipality,GM1667,377.0
+people_in_debt,2023,Reusel-De Mierden,Municipality,GM1667,417.0
+people_in_debt,2019,Rheden,Municipality,GM0275,220.0
+people_in_debt,2020,Rheden,Municipality,GM0275,236.0
+people_in_debt,2021,Rheden,Municipality,GM0275,251.0
+people_in_debt,2022,Rheden,Municipality,GM0275,280.0
+people_in_debt,2023,Rheden,Municipality,GM0275,347.0
+people_in_debt,2019,Rhenen,Municipality,GM0340,294.0
+people_in_debt,2020,Rhenen,Municipality,GM0340,311.0
+people_in_debt,2021,Rhenen,Municipality,GM0340,332.0
+people_in_debt,2022,Rhenen,Municipality,GM0340,358.0
+people_in_debt,2023,Rhenen,Municipality,GM0340,411.0
+people_in_debt,2019,Ridderkerk,Municipality,GM0597,213.0
+people_in_debt,2020,Ridderkerk,Municipality,GM0597,235.0
+people_in_debt,2021,Ridderkerk,Municipality,GM0597,257.0
+people_in_debt,2022,Ridderkerk,Municipality,GM0597,286.0
+people_in_debt,2023,Ridderkerk,Municipality,GM0597,330.0
+people_in_debt,2019,Rijssen-Holten,Municipality,GM1742,243.0
+people_in_debt,2020,Rijssen-Holten,Municipality,GM1742,257.0
+people_in_debt,2021,Rijssen-Holten,Municipality,GM1742,275.0
+people_in_debt,2022,Rijssen-Holten,Municipality,GM1742,314.0
+people_in_debt,2023,Rijssen-Holten,Municipality,GM1742,353.0
+people_in_debt,2019,Rijswijk (ZH.),Municipality,GM0603,224.0
+people_in_debt,2020,Rijswijk (ZH.),Municipality,GM0603,253.0
+people_in_debt,2021,Rijswijk (ZH.),Municipality,GM0603,271.0
+people_in_debt,2022,Rijswijk (ZH.),Municipality,GM0603,302.0
+people_in_debt,2023,Rijswijk (ZH.),Municipality,GM0603,347.0
+people_in_debt,2019,Roerdalen,Municipality,GM1669,223.0
+people_in_debt,2020,Roerdalen,Municipality,GM1669,232.0
+people_in_debt,2021,Roerdalen,Municipality,GM1669,245.0
+people_in_debt,2022,Roerdalen,Municipality,GM1669,261.0
+people_in_debt,2023,Roerdalen,Municipality,GM1669,308.0
+people_in_debt,2019,Roermond,Municipality,GM0957,200.0
+people_in_debt,2020,Roermond,Municipality,GM0957,215.0
+people_in_debt,2021,Roermond,Municipality,GM0957,228.0
+people_in_debt,2022,Roermond,Municipality,GM0957,244.0
+people_in_debt,2023,Roermond,Municipality,GM0957,290.0
+people_in_debt,2019,De Ronde Venen,Municipality,GM0736,348.0
+people_in_debt,2020,De Ronde Venen,Municipality,GM0736,378.0
+people_in_debt,2021,De Ronde Venen,Municipality,GM0736,399.0
+people_in_debt,2022,De Ronde Venen,Municipality,GM0736,440.0
+people_in_debt,2023,De Ronde Venen,Municipality,GM0736,517.0
+people_in_debt,2019,Roosendaal,Municipality,GM1674,217.0
+people_in_debt,2020,Roosendaal,Municipality,GM1674,228.0
+people_in_debt,2021,Roosendaal,Municipality,GM1674,241.0
+people_in_debt,2022,Roosendaal,Municipality,GM1674,259.0
+people_in_debt,2023,Roosendaal,Municipality,GM1674,292.0
+people_in_debt,2019,Rotterdam,Municipality,GM0599,191.0
+people_in_debt,2020,Rotterdam,Municipality,GM0599,221.0
+people_in_debt,2021,Rotterdam,Municipality,GM0599,245.0
+people_in_debt,2022,Rotterdam,Municipality,GM0599,275.0
+people_in_debt,2023,Rotterdam,Municipality,GM0599,320.0
+people_in_debt,2019,Rozendaal,Municipality,GM0277,490.0
+people_in_debt,2020,Rozendaal,Municipality,GM0277,533.0
+people_in_debt,2021,Rozendaal,Municipality,GM0277,566.0
+people_in_debt,2022,Rozendaal,Municipality,GM0277,612.0
+people_in_debt,2023,Rozendaal,Municipality,GM0277,753.0
+people_in_debt,2019,Rucphen,Municipality,GM0840,264.0
+people_in_debt,2020,Rucphen,Municipality,GM0840,276.0
+people_in_debt,2021,Rucphen,Municipality,GM0840,291.0
+people_in_debt,2022,Rucphen,Municipality,GM0840,314.0
+people_in_debt,2023,Rucphen,Municipality,GM0840,352.0
+people_in_debt,2019,Schagen,Municipality,GM0441,248.0
+people_in_debt,2020,Schagen,Municipality,GM0441,264.0
+people_in_debt,2021,Schagen,Municipality,GM0441,278.0
+people_in_debt,2022,Schagen,Municipality,GM0441,311.0
+people_in_debt,2023,Schagen,Municipality,GM0441,349.0
+people_in_debt,2019,Scherpenzeel,Municipality,GM0279,276.0
+people_in_debt,2020,Scherpenzeel,Municipality,GM0279,298.0
+people_in_debt,2021,Scherpenzeel,Municipality,GM0279,313.0
+people_in_debt,2022,Scherpenzeel,Municipality,GM0279,347.0
+people_in_debt,2023,Scherpenzeel,Municipality,GM0279,389.0
+people_in_debt,2019,Schiedam,Municipality,GM0606,170.0
+people_in_debt,2020,Schiedam,Municipality,GM0606,195.0
+people_in_debt,2021,Schiedam,Municipality,GM0606,221.0
+people_in_debt,2022,Schiedam,Municipality,GM0606,248.0
+people_in_debt,2023,Schiedam,Municipality,GM0606,285.0
+people_in_debt,2019,Schiermonnikoog,Municipality,GM0088,247.0
+people_in_debt,2020,Schiermonnikoog,Municipality,GM0088,256.0
+people_in_debt,2021,Schiermonnikoog,Municipality,GM0088,282.0
+people_in_debt,2022,Schiermonnikoog,Municipality,GM0088,331.0
+people_in_debt,2023,Schiermonnikoog,Municipality,GM0088,382.0
+people_in_debt,2019,Schouwen-Duiveland,Municipality,GM1676,251.0
+people_in_debt,2020,Schouwen-Duiveland,Municipality,GM1676,261.0
+people_in_debt,2021,Schouwen-Duiveland,Municipality,GM1676,279.0
+people_in_debt,2022,Schouwen-Duiveland,Municipality,GM1676,303.0
+people_in_debt,2023,Schouwen-Duiveland,Municipality,GM1676,343.0
+people_in_debt,2019,Simpelveld,Municipality,GM0965,176.0
+people_in_debt,2020,Simpelveld,Municipality,GM0965,194.0
+people_in_debt,2021,Simpelveld,Municipality,GM0965,204.0
+people_in_debt,2022,Simpelveld,Municipality,GM0965,212.0
+people_in_debt,2023,Simpelveld,Municipality,GM0965,251.0
+people_in_debt,2019,Sint Anthonis,Municipality,GM1702,292.0
+people_in_debt,2020,Sint Anthonis,Municipality,GM1702,315.0
+people_in_debt,2021,Sint Anthonis,Municipality,GM1702,311.0
+people_in_debt,2022,Sint Anthonis,Municipality,GM1702,
+people_in_debt,2023,Sint Anthonis,Municipality,GM1702,
+people_in_debt,2019,Sint-Michielsgestel,Municipality,GM0845,322.0
+people_in_debt,2020,Sint-Michielsgestel,Municipality,GM0845,342.0
+people_in_debt,2021,Sint-Michielsgestel,Municipality,GM0845,359.0
+people_in_debt,2022,Sint-Michielsgestel,Municipality,GM0845,393.0
+people_in_debt,2023,Sint-Michielsgestel,Municipality,GM0845,461.0
+people_in_debt,2019,Sittard-Geleen,Municipality,GM1883,178.0
+people_in_debt,2020,Sittard-Geleen,Municipality,GM1883,192.0
+people_in_debt,2021,Sittard-Geleen,Municipality,GM1883,204.0
+people_in_debt,2022,Sittard-Geleen,Municipality,GM1883,218.0
+people_in_debt,2023,Sittard-Geleen,Municipality,GM1883,254.0
+people_in_debt,2019,Sliedrecht,Municipality,GM0610,201.0
+people_in_debt,2020,Sliedrecht,Municipality,GM0610,221.0
+people_in_debt,2021,Sliedrecht,Municipality,GM0610,240.0
+people_in_debt,2022,Sliedrecht,Municipality,GM0610,255.0
+people_in_debt,2023,Sliedrecht,Municipality,GM0610,304.0
+people_in_debt,2019,Sluis,Municipality,GM1714,213.0
+people_in_debt,2020,Sluis,Municipality,GM1714,224.0
+people_in_debt,2021,Sluis,Municipality,GM1714,242.0
+people_in_debt,2022,Sluis,Municipality,GM1714,268.0
+people_in_debt,2023,Sluis,Municipality,GM1714,303.0
+people_in_debt,2019,Smallingerland,Municipality,GM0090,181.0
+people_in_debt,2020,Smallingerland,Municipality,GM0090,195.0
+people_in_debt,2021,Smallingerland,Municipality,GM0090,211.0
+people_in_debt,2022,Smallingerland,Municipality,GM0090,234.0
+people_in_debt,2023,Smallingerland,Municipality,GM0090,276.0
+people_in_debt,2019,Soest,Municipality,GM0342,313.0
+people_in_debt,2020,Soest,Municipality,GM0342,333.0
+people_in_debt,2021,Soest,Municipality,GM0342,355.0
+people_in_debt,2022,Soest,Municipality,GM0342,386.0
+people_in_debt,2023,Soest,Municipality,GM0342,427.0
+people_in_debt,2019,Someren,Municipality,GM0847,292.0
+people_in_debt,2020,Someren,Municipality,GM0847,312.0
+people_in_debt,2021,Someren,Municipality,GM0847,322.0
+people_in_debt,2022,Someren,Municipality,GM0847,353.0
+people_in_debt,2023,Someren,Municipality,GM0847,392.0
+people_in_debt,2019,Son en Breugel,Municipality,GM0848,327.0
+people_in_debt,2020,Son en Breugel,Municipality,GM0848,350.0
+people_in_debt,2021,Son en Breugel,Municipality,GM0848,373.0
+people_in_debt,2022,Son en Breugel,Municipality,GM0848,401.0
+people_in_debt,2023,Son en Breugel,Municipality,GM0848,459.0
+people_in_debt,2019,Stadskanaal,Municipality,GM0037,165.0
+people_in_debt,2020,Stadskanaal,Municipality,GM0037,175.0
+people_in_debt,2021,Stadskanaal,Municipality,GM0037,187.0
+people_in_debt,2022,Stadskanaal,Municipality,GM0037,207.0
+people_in_debt,2023,Stadskanaal,Municipality,GM0037,242.0
+people_in_debt,2019,Staphorst,Municipality,GM0180,271.0
+people_in_debt,2020,Staphorst,Municipality,GM0180,277.0
+people_in_debt,2021,Staphorst,Municipality,GM0180,292.0
+people_in_debt,2022,Staphorst,Municipality,GM0180,317.0
+people_in_debt,2023,Staphorst,Municipality,GM0180,350.0
+people_in_debt,2019,Stede Broec,Municipality,GM0532,221.0
+people_in_debt,2020,Stede Broec,Municipality,GM0532,244.0
+people_in_debt,2021,Stede Broec,Municipality,GM0532,264.0
+people_in_debt,2022,Stede Broec,Municipality,GM0532,294.0
+people_in_debt,2023,Stede Broec,Municipality,GM0532,355.0
+people_in_debt,2019,Steenbergen,Municipality,GM0851,223.0
+people_in_debt,2020,Steenbergen,Municipality,GM0851,238.0
+people_in_debt,2021,Steenbergen,Municipality,GM0851,254.0
+people_in_debt,2022,Steenbergen,Municipality,GM0851,286.0
+people_in_debt,2023,Steenbergen,Municipality,GM0851,327.0
+people_in_debt,2019,Steenwijkerland,Municipality,GM1708,221.0
+people_in_debt,2020,Steenwijkerland,Municipality,GM1708,230.0
+people_in_debt,2021,Steenwijkerland,Municipality,GM1708,245.0
+people_in_debt,2022,Steenwijkerland,Municipality,GM1708,270.0
+people_in_debt,2023,Steenwijkerland,Municipality,GM1708,309.0
+people_in_debt,2019,Stein (L.),Municipality,GM0971,205.0
+people_in_debt,2020,Stein (L.),Municipality,GM0971,222.0
+people_in_debt,2021,Stein (L.),Municipality,GM0971,234.0
+people_in_debt,2022,Stein (L.),Municipality,GM0971,244.0
+people_in_debt,2023,Stein (L.),Municipality,GM0971,289.0
+people_in_debt,2019,Stichtse Vecht,Municipality,GM1904,324.0
+people_in_debt,2020,Stichtse Vecht,Municipality,GM1904,343.0
+people_in_debt,2021,Stichtse Vecht,Municipality,GM1904,364.0
+people_in_debt,2022,Stichtse Vecht,Municipality,GM1904,392.0
+people_in_debt,2023,Stichtse Vecht,Municipality,GM1904,458.0
+people_in_debt,2019,Súdwest-Fryslân,Municipality,GM1900,207.0
+people_in_debt,2020,Súdwest-Fryslân,Municipality,GM1900,217.0
+people_in_debt,2021,Súdwest-Fryslân,Municipality,GM1900,229.0
+people_in_debt,2022,Súdwest-Fryslân,Municipality,GM1900,251.0
+people_in_debt,2023,Súdwest-Fryslân,Municipality,GM1900,288.0
+people_in_debt,2019,Terneuzen,Municipality,GM0715,172.0
+people_in_debt,2020,Terneuzen,Municipality,GM0715,181.0
+people_in_debt,2021,Terneuzen,Municipality,GM0715,192.0
+people_in_debt,2022,Terneuzen,Municipality,GM0715,208.0
+people_in_debt,2023,Terneuzen,Municipality,GM0715,234.0
+people_in_debt,2019,Terschelling,Municipality,GM0093,313.0
+people_in_debt,2020,Terschelling,Municipality,GM0093,322.0
+people_in_debt,2021,Terschelling,Municipality,GM0093,342.0
+people_in_debt,2022,Terschelling,Municipality,GM0093,392.0
+people_in_debt,2023,Terschelling,Municipality,GM0093,427.0
+people_in_debt,2019,Texel,Municipality,GM0448,272.0
+people_in_debt,2020,Texel,Municipality,GM0448,287.0
+people_in_debt,2021,Texel,Municipality,GM0448,305.0
+people_in_debt,2022,Texel,Municipality,GM0448,328.0
+people_in_debt,2023,Texel,Municipality,GM0448,372.0
+people_in_debt,2019,Teylingen,Municipality,GM1525,319.0
+people_in_debt,2020,Teylingen,Municipality,GM1525,347.0
+people_in_debt,2021,Teylingen,Municipality,GM1525,370.0
+people_in_debt,2022,Teylingen,Municipality,GM1525,404.0
+people_in_debt,2023,Teylingen,Municipality,GM1525,459.0
+people_in_debt,2019,Tholen,Municipality,GM0716,197.0
+people_in_debt,2020,Tholen,Municipality,GM0716,203.0
+people_in_debt,2021,Tholen,Municipality,GM0716,213.0
+people_in_debt,2022,Tholen,Municipality,GM0716,228.0
+people_in_debt,2023,Tholen,Municipality,GM0716,258.0
+people_in_debt,2019,Tiel,Municipality,GM0281,209.0
+people_in_debt,2020,Tiel,Municipality,GM0281,224.0
+people_in_debt,2021,Tiel,Municipality,GM0281,238.0
+people_in_debt,2022,Tiel,Municipality,GM0281,263.0
+people_in_debt,2023,Tiel,Municipality,GM0281,316.0
+people_in_debt,2019,Tilburg,Municipality,GM0855,210.0
+people_in_debt,2020,Tilburg,Municipality,GM0855,228.0
+people_in_debt,2021,Tilburg,Municipality,GM0855,247.0
+people_in_debt,2022,Tilburg,Municipality,GM0855,269.0
+people_in_debt,2023,Tilburg,Municipality,GM0855,314.0
+people_in_debt,2019,Tubbergen,Municipality,GM0183,290.0
+people_in_debt,2020,Tubbergen,Municipality,GM0183,304.0
+people_in_debt,2021,Tubbergen,Municipality,GM0183,320.0
+people_in_debt,2022,Tubbergen,Municipality,GM0183,359.0
+people_in_debt,2023,Tubbergen,Municipality,GM0183,402.0
+people_in_debt,2019,Twenterand,Municipality,GM1700,222.0
+people_in_debt,2020,Twenterand,Municipality,GM1700,234.0
+people_in_debt,2021,Twenterand,Municipality,GM1700,251.0
+people_in_debt,2022,Twenterand,Municipality,GM1700,278.0
+people_in_debt,2023,Twenterand,Municipality,GM1700,327.0
+people_in_debt,2019,Tynaarlo,Municipality,GM1730,269.0
+people_in_debt,2020,Tynaarlo,Municipality,GM1730,285.0
+people_in_debt,2021,Tynaarlo,Municipality,GM1730,306.0
+people_in_debt,2022,Tynaarlo,Municipality,GM1730,341.0
+people_in_debt,2023,Tynaarlo,Municipality,GM1730,394.0
+people_in_debt,2019,Tytsjerksteradiel,Municipality,GM0737,203.0
+people_in_debt,2020,Tytsjerksteradiel,Municipality,GM0737,214.0
+people_in_debt,2021,Tytsjerksteradiel,Municipality,GM0737,226.0
+people_in_debt,2022,Tytsjerksteradiel,Municipality,GM0737,249.0
+people_in_debt,2023,Tytsjerksteradiel,Municipality,GM0737,284.0
+people_in_debt,2019,Uden,Municipality,GM0856,259.0
+people_in_debt,2020,Uden,Municipality,GM0856,282.0
+people_in_debt,2021,Uden,Municipality,GM0856,288.0
+people_in_debt,2022,Uden,Municipality,GM0856,
+people_in_debt,2023,Uden,Municipality,GM0856,
+people_in_debt,2019,Uitgeest,Municipality,GM0450,287.0
+people_in_debt,2020,Uitgeest,Municipality,GM0450,311.0
+people_in_debt,2021,Uitgeest,Municipality,GM0450,333.0
+people_in_debt,2022,Uitgeest,Municipality,GM0450,363.0
+people_in_debt,2023,Uitgeest,Municipality,GM0450,448.0
+people_in_debt,2019,Uithoorn,Municipality,GM0451,282.0
+people_in_debt,2020,Uithoorn,Municipality,GM0451,311.0
+people_in_debt,2021,Uithoorn,Municipality,GM0451,334.0
+people_in_debt,2022,Uithoorn,Municipality,GM0451,365.0
+people_in_debt,2023,Uithoorn,Municipality,GM0451,427.0
+people_in_debt,2019,Urk,Municipality,GM0184,222.0
+people_in_debt,2020,Urk,Municipality,GM0184,239.0
+people_in_debt,2021,Urk,Municipality,GM0184,259.0
+people_in_debt,2022,Urk,Municipality,GM0184,293.0
+people_in_debt,2023,Urk,Municipality,GM0184,327.0
+people_in_debt,2019,Utrecht (gemeente),Municipality,GM0344,299.0
+people_in_debt,2020,Utrecht (gemeente),Municipality,GM0344,331.0
+people_in_debt,2021,Utrecht (gemeente),Municipality,GM0344,357.0
+people_in_debt,2022,Utrecht (gemeente),Municipality,GM0344,392.0
+people_in_debt,2023,Utrecht (gemeente),Municipality,GM0344,461.0
+people_in_debt,2019,Utrechtse Heuvelrug,Municipality,GM1581,357.0
+people_in_debt,2020,Utrechtse Heuvelrug,Municipality,GM1581,375.0
+people_in_debt,2021,Utrechtse Heuvelrug,Municipality,GM1581,396.0
+people_in_debt,2022,Utrechtse Heuvelrug,Municipality,GM1581,427.0
+people_in_debt,2023,Utrechtse Heuvelrug,Municipality,GM1581,494.0
+people_in_debt,2019,Vaals,Municipality,GM0981,157.0
+people_in_debt,2020,Vaals,Municipality,GM0981,168.0
+people_in_debt,2021,Vaals,Municipality,GM0981,174.0
+people_in_debt,2022,Vaals,Municipality,GM0981,189.0
+people_in_debt,2023,Vaals,Municipality,GM0981,221.0
+people_in_debt,2019,Valkenburg aan de Geul,Municipality,GM0994,221.0
+people_in_debt,2020,Valkenburg aan de Geul,Municipality,GM0994,235.0
+people_in_debt,2021,Valkenburg aan de Geul,Municipality,GM0994,256.0
+people_in_debt,2022,Valkenburg aan de Geul,Municipality,GM0994,274.0
+people_in_debt,2023,Valkenburg aan de Geul,Municipality,GM0994,319.0
+people_in_debt,2019,Valkenswaard,Municipality,GM0858,268.0
+people_in_debt,2020,Valkenswaard,Municipality,GM0858,283.0
+people_in_debt,2021,Valkenswaard,Municipality,GM0858,301.0
+people_in_debt,2022,Valkenswaard,Municipality,GM0858,327.0
+people_in_debt,2023,Valkenswaard,Municipality,GM0858,360.0
+people_in_debt,2019,Veendam,Municipality,GM0047,146.0
+people_in_debt,2020,Veendam,Municipality,GM0047,154.0
+people_in_debt,2021,Veendam,Municipality,GM0047,164.0
+people_in_debt,2022,Veendam,Municipality,GM0047,180.0
+people_in_debt,2023,Veendam,Municipality,GM0047,213.0
+people_in_debt,2019,Veenendaal,Municipality,GM0345,235.0
+people_in_debt,2020,Veenendaal,Municipality,GM0345,256.0
+people_in_debt,2021,Veenendaal,Municipality,GM0345,275.0
+people_in_debt,2022,Veenendaal,Municipality,GM0345,302.0
+people_in_debt,2023,Veenendaal,Municipality,GM0345,376.0
+people_in_debt,2019,Veere,Municipality,GM0717,282.0
+people_in_debt,2020,Veere,Municipality,GM0717,296.0
+people_in_debt,2021,Veere,Municipality,GM0717,313.0
+people_in_debt,2022,Veere,Municipality,GM0717,340.0
+people_in_debt,2023,Veere,Municipality,GM0717,388.0
+people_in_debt,2019,Veldhoven,Municipality,GM0861,298.0
+people_in_debt,2020,Veldhoven,Municipality,GM0861,320.0
+people_in_debt,2021,Veldhoven,Municipality,GM0861,346.0
+people_in_debt,2022,Veldhoven,Municipality,GM0861,375.0
+people_in_debt,2023,Veldhoven,Municipality,GM0861,442.0
+people_in_debt,2019,Velsen,Municipality,GM0453,266.0
+people_in_debt,2020,Velsen,Municipality,GM0453,289.0
+people_in_debt,2021,Velsen,Municipality,GM0453,304.0
+people_in_debt,2022,Velsen,Municipality,GM0453,345.0
+people_in_debt,2023,Velsen,Municipality,GM0453,393.0
+people_in_debt,2019,Venlo,Municipality,GM0983,200.0
+people_in_debt,2020,Venlo,Municipality,GM0983,215.0
+people_in_debt,2021,Venlo,Municipality,GM0983,226.0
+people_in_debt,2022,Venlo,Municipality,GM0983,241.0
+people_in_debt,2023,Venlo,Municipality,GM0983,286.0
+people_in_debt,2019,Venray,Municipality,GM0984,228.0
+people_in_debt,2020,Venray,Municipality,GM0984,240.0
+people_in_debt,2021,Venray,Municipality,GM0984,254.0
+people_in_debt,2022,Venray,Municipality,GM0984,276.0
+people_in_debt,2023,Venray,Municipality,GM0984,316.0
+people_in_debt,2019,Vijfheerenlanden,Municipality,GM1961,252.0
+people_in_debt,2020,Vijfheerenlanden,Municipality,GM1961,265.0
+people_in_debt,2021,Vijfheerenlanden,Municipality,GM1961,283.0
+people_in_debt,2022,Vijfheerenlanden,Municipality,GM1961,331.0
+people_in_debt,2023,Vijfheerenlanden,Municipality,GM1961,379.0
+people_in_debt,2019,Vlaardingen,Municipality,GM0622,183.0
+people_in_debt,2020,Vlaardingen,Municipality,GM0622,202.0
+people_in_debt,2021,Vlaardingen,Municipality,GM0622,220.0
+people_in_debt,2022,Vlaardingen,Municipality,GM0622,243.0
+people_in_debt,2023,Vlaardingen,Municipality,GM0622,277.0
+people_in_debt,2019,Vlieland,Municipality,GM0096,260.0
+people_in_debt,2020,Vlieland,Municipality,GM0096,284.0
+people_in_debt,2021,Vlieland,Municipality,GM0096,306.0
+people_in_debt,2022,Vlieland,Municipality,GM0096,328.0
+people_in_debt,2023,Vlieland,Municipality,GM0096,392.0
+people_in_debt,2019,Vlissingen,Municipality,GM0718,158.0
+people_in_debt,2020,Vlissingen,Municipality,GM0718,166.0
+people_in_debt,2021,Vlissingen,Municipality,GM0718,181.0
+people_in_debt,2022,Vlissingen,Municipality,GM0718,199.0
+people_in_debt,2023,Vlissingen,Municipality,GM0718,230.0
+people_in_debt,2019,Voerendaal,Municipality,GM0986,236.0
+people_in_debt,2020,Voerendaal,Municipality,GM0986,253.0
+people_in_debt,2021,Voerendaal,Municipality,GM0986,264.0
+people_in_debt,2022,Voerendaal,Municipality,GM0986,281.0
+people_in_debt,2023,Voerendaal,Municipality,GM0986,330.0
+people_in_debt,2019,Voorne aan Zee,Municipality,GM1992,
+people_in_debt,2020,Voorne aan Zee,Municipality,GM1992,
+people_in_debt,2021,Voorne aan Zee,Municipality,GM1992,
+people_in_debt,2022,Voorne aan Zee,Municipality,GM1992,
+people_in_debt,2023,Voorne aan Zee,Municipality,GM1992,369.0
+people_in_debt,2019,Voorschoten,Municipality,GM0626,336.0
+people_in_debt,2020,Voorschoten,Municipality,GM0626,363.0
+people_in_debt,2021,Voorschoten,Municipality,GM0626,385.0
+people_in_debt,2022,Voorschoten,Municipality,GM0626,424.0
+people_in_debt,2023,Voorschoten,Municipality,GM0626,487.0
+people_in_debt,2019,Voorst,Municipality,GM0285,298.0
+people_in_debt,2020,Voorst,Municipality,GM0285,319.0
+people_in_debt,2021,Voorst,Municipality,GM0285,336.0
+people_in_debt,2022,Voorst,Municipality,GM0285,361.0
+people_in_debt,2023,Voorst,Municipality,GM0285,431.0
+people_in_debt,2019,Vught,Municipality,GM0865,362.0
+people_in_debt,2020,Vught,Municipality,GM0865,388.0
+people_in_debt,2021,Vught,Municipality,GM0865,406.0
+people_in_debt,2022,Vught,Municipality,GM0865,438.0
+people_in_debt,2023,Vught,Municipality,GM0865,499.0
+people_in_debt,2019,Waadhoeke,Municipality,GM1949,170.0
+people_in_debt,2020,Waadhoeke,Municipality,GM1949,180.0
+people_in_debt,2021,Waadhoeke,Municipality,GM1949,188.0
+people_in_debt,2022,Waadhoeke,Municipality,GM1949,207.0
+people_in_debt,2023,Waadhoeke,Municipality,GM1949,242.0
+people_in_debt,2019,Waalre,Municipality,GM0866,333.0
+people_in_debt,2020,Waalre,Municipality,GM0866,355.0
+people_in_debt,2021,Waalre,Municipality,GM0866,386.0
+people_in_debt,2022,Waalre,Municipality,GM0866,420.0
+people_in_debt,2023,Waalre,Municipality,GM0866,492.0
+people_in_debt,2019,Waalwijk,Municipality,GM0867,237.0
+people_in_debt,2020,Waalwijk,Municipality,GM0867,253.0
+people_in_debt,2021,Waalwijk,Municipality,GM0867,272.0
+people_in_debt,2022,Waalwijk,Municipality,GM0867,295.0
+people_in_debt,2023,Waalwijk,Municipality,GM0867,342.0
+people_in_debt,2019,Waddinxveen,Municipality,GM0627,239.0
+people_in_debt,2020,Waddinxveen,Municipality,GM0627,265.0
+people_in_debt,2021,Waddinxveen,Municipality,GM0627,282.0
+people_in_debt,2022,Waddinxveen,Municipality,GM0627,319.0
+people_in_debt,2023,Waddinxveen,Municipality,GM0627,370.0
+people_in_debt,2019,Wageningen,Municipality,GM0289,227.0
+people_in_debt,2020,Wageningen,Municipality,GM0289,243.0
+people_in_debt,2021,Wageningen,Municipality,GM0289,257.0
+people_in_debt,2022,Wageningen,Municipality,GM0289,291.0
+people_in_debt,2023,Wageningen,Municipality,GM0289,346.0
+people_in_debt,2019,Wassenaar,Municipality,GM0629,566.0
+people_in_debt,2020,Wassenaar,Municipality,GM0629,601.0
+people_in_debt,2021,Wassenaar,Municipality,GM0629,624.0
+people_in_debt,2022,Wassenaar,Municipality,GM0629,663.0
+people_in_debt,2023,Wassenaar,Municipality,GM0629,731.0
+people_in_debt,2019,Waterland,Municipality,GM0852,339.0
+people_in_debt,2020,Waterland,Municipality,GM0852,364.0
+people_in_debt,2021,Waterland,Municipality,GM0852,382.0
+people_in_debt,2022,Waterland,Municipality,GM0852,413.0
+people_in_debt,2023,Waterland,Municipality,GM0852,457.0
+people_in_debt,2019,Weert,Municipality,GM0988,240.0
+people_in_debt,2020,Weert,Municipality,GM0988,256.0
+people_in_debt,2021,Weert,Municipality,GM0988,265.0
+people_in_debt,2022,Weert,Municipality,GM0988,275.0
+people_in_debt,2023,Weert,Municipality,GM0988,330.0
+people_in_debt,2019,Weesp,Municipality,GM0457,289.0
+people_in_debt,2020,Weesp,Municipality,GM0457,348.0
+people_in_debt,2021,Weesp,Municipality,GM0457,373.0
+people_in_debt,2022,Weesp,Municipality,GM0457,402.0
+people_in_debt,2023,Weesp,Municipality,GM0457,
+people_in_debt,2019,West Betuwe,Municipality,GM1960,284.0
+people_in_debt,2020,West Betuwe,Municipality,GM1960,301.0
+people_in_debt,2021,West Betuwe,Municipality,GM1960,321.0
+people_in_debt,2022,West Betuwe,Municipality,GM1960,352.0
+people_in_debt,2023,West Betuwe,Municipality,GM1960,412.0
+people_in_debt,2019,West Maas en Waal,Municipality,GM0668,256.0
+people_in_debt,2020,West Maas en Waal,Municipality,GM0668,277.0
+people_in_debt,2021,West Maas en Waal,Municipality,GM0668,297.0
+people_in_debt,2022,West Maas en Waal,Municipality,GM0668,325.0
+people_in_debt,2023,West Maas en Waal,Municipality,GM0668,391.0
+people_in_debt,2019,Westerkwartier,Municipality,GM1969,214.0
+people_in_debt,2020,Westerkwartier,Municipality,GM1969,225.0
+people_in_debt,2021,Westerkwartier,Municipality,GM1969,238.0
+people_in_debt,2022,Westerkwartier,Municipality,GM1969,262.0
+people_in_debt,2023,Westerkwartier,Municipality,GM1969,304.0
+people_in_debt,2019,Westerveld,Municipality,GM1701,272.0
+people_in_debt,2020,Westerveld,Municipality,GM1701,287.0
+people_in_debt,2021,Westerveld,Municipality,GM1701,303.0
+people_in_debt,2022,Westerveld,Municipality,GM1701,326.0
+people_in_debt,2023,Westerveld,Municipality,GM1701,375.0
+people_in_debt,2019,Westervoort,Municipality,GM0293,202.0
+people_in_debt,2020,Westervoort,Municipality,GM0293,219.0
+people_in_debt,2021,Westervoort,Municipality,GM0293,237.0
+people_in_debt,2022,Westervoort,Municipality,GM0293,262.0
+people_in_debt,2023,Westervoort,Municipality,GM0293,310.0
+people_in_debt,2019,Westerwolde,Municipality,GM1950,180.0
+people_in_debt,2020,Westerwolde,Municipality,GM1950,186.0
+people_in_debt,2021,Westerwolde,Municipality,GM1950,204.0
+people_in_debt,2022,Westerwolde,Municipality,GM1950,235.0
+people_in_debt,2023,Westerwolde,Municipality,GM1950,270.0
+people_in_debt,2019,Westland,Municipality,GM1783,292.0
+people_in_debt,2020,Westland,Municipality,GM1783,318.0
+people_in_debt,2021,Westland,Municipality,GM1783,341.0
+people_in_debt,2022,Westland,Municipality,GM1783,373.0
+people_in_debt,2023,Westland,Municipality,GM1783,423.0
+people_in_debt,2019,Weststellingwerf,Municipality,GM0098,203.0
+people_in_debt,2020,Weststellingwerf,Municipality,GM0098,216.0
+people_in_debt,2021,Weststellingwerf,Municipality,GM0098,237.0
+people_in_debt,2022,Weststellingwerf,Municipality,GM0098,259.0
+people_in_debt,2023,Weststellingwerf,Municipality,GM0098,300.0
+people_in_debt,2019,Westvoorne,Municipality,GM0614,334.0
+people_in_debt,2020,Westvoorne,Municipality,GM0614,363.0
+people_in_debt,2021,Westvoorne,Municipality,GM0614,393.0
+people_in_debt,2022,Westvoorne,Municipality,GM0614,430.0
+people_in_debt,2023,Westvoorne,Municipality,GM0614,
+people_in_debt,2019,Wierden,Municipality,GM0189,263.0
+people_in_debt,2020,Wierden,Municipality,GM0189,278.0
+people_in_debt,2021,Wierden,Municipality,GM0189,297.0
+people_in_debt,2022,Wierden,Municipality,GM0189,338.0
+people_in_debt,2023,Wierden,Municipality,GM0189,380.0
+people_in_debt,2019,Wijchen,Municipality,GM0296,248.0
+people_in_debt,2020,Wijchen,Municipality,GM0296,263.0
+people_in_debt,2021,Wijchen,Municipality,GM0296,282.0
+people_in_debt,2022,Wijchen,Municipality,GM0296,318.0
+people_in_debt,2023,Wijchen,Municipality,GM0296,357.0
+people_in_debt,2019,Wijdemeren,Municipality,GM1696,376.0
+people_in_debt,2020,Wijdemeren,Municipality,GM1696,404.0
+people_in_debt,2021,Wijdemeren,Municipality,GM1696,432.0
+people_in_debt,2022,Wijdemeren,Municipality,GM1696,484.0
+people_in_debt,2023,Wijdemeren,Municipality,GM1696,538.0
+people_in_debt,2019,Wijk bij Duurstede,Municipality,GM0352,277.0
+people_in_debt,2020,Wijk bij Duurstede,Municipality,GM0352,297.0
+people_in_debt,2021,Wijk bij Duurstede,Municipality,GM0352,322.0
+people_in_debt,2022,Wijk bij Duurstede,Municipality,GM0352,357.0
+people_in_debt,2023,Wijk bij Duurstede,Municipality,GM0352,420.0
+people_in_debt,2019,Winterswijk,Municipality,GM0294,200.0
+people_in_debt,2020,Winterswijk,Municipality,GM0294,214.0
+people_in_debt,2021,Winterswijk,Municipality,GM0294,227.0
+people_in_debt,2022,Winterswijk,Municipality,GM0294,253.0
+people_in_debt,2023,Winterswijk,Municipality,GM0294,286.0
+people_in_debt,2019,Woensdrecht,Municipality,GM0873,248.0
+people_in_debt,2020,Woensdrecht,Municipality,GM0873,261.0
+people_in_debt,2021,Woensdrecht,Municipality,GM0873,278.0
+people_in_debt,2022,Woensdrecht,Municipality,GM0873,292.0
+people_in_debt,2023,Woensdrecht,Municipality,GM0873,329.0
+people_in_debt,2019,Woerden,Municipality,GM0632,287.0
+people_in_debt,2020,Woerden,Municipality,GM0632,309.0
+people_in_debt,2021,Woerden,Municipality,GM0632,328.0
+people_in_debt,2022,Woerden,Municipality,GM0632,355.0
+people_in_debt,2023,Woerden,Municipality,GM0632,406.0
+people_in_debt,2019,De Wolden,Municipality,GM1690,266.0
+people_in_debt,2020,De Wolden,Municipality,GM1690,279.0
+people_in_debt,2021,De Wolden,Municipality,GM1690,294.0
+people_in_debt,2022,De Wolden,Municipality,GM1690,325.0
+people_in_debt,2023,De Wolden,Municipality,GM1690,379.0
+people_in_debt,2019,Wormerland,Municipality,GM0880,264.0
+people_in_debt,2020,Wormerland,Municipality,GM0880,297.0
+people_in_debt,2021,Wormerland,Municipality,GM0880,324.0
+people_in_debt,2022,Wormerland,Municipality,GM0880,349.0
+people_in_debt,2023,Wormerland,Municipality,GM0880,415.0
+people_in_debt,2019,Woudenberg,Municipality,GM0351,316.0
+people_in_debt,2020,Woudenberg,Municipality,GM0351,335.0
+people_in_debt,2021,Woudenberg,Municipality,GM0351,366.0
+people_in_debt,2022,Woudenberg,Municipality,GM0351,395.0
+people_in_debt,2023,Woudenberg,Municipality,GM0351,469.0
+people_in_debt,2019,Zaanstad,Municipality,GM0479,229.0
+people_in_debt,2020,Zaanstad,Municipality,GM0479,256.0
+people_in_debt,2021,Zaanstad,Municipality,GM0479,281.0
+people_in_debt,2022,Zaanstad,Municipality,GM0479,312.0
+people_in_debt,2023,Zaanstad,Municipality,GM0479,368.0
+people_in_debt,2019,Zaltbommel,Municipality,GM0297,256.0
+people_in_debt,2020,Zaltbommel,Municipality,GM0297,271.0
+people_in_debt,2021,Zaltbommel,Municipality,GM0297,291.0
+people_in_debt,2022,Zaltbommel,Municipality,GM0297,322.0
+people_in_debt,2023,Zaltbommel,Municipality,GM0297,363.0
+people_in_debt,2019,Zandvoort,Municipality,GM0473,309.0
+people_in_debt,2020,Zandvoort,Municipality,GM0473,352.0
+people_in_debt,2021,Zandvoort,Municipality,GM0473,387.0
+people_in_debt,2022,Zandvoort,Municipality,GM0473,424.0
+people_in_debt,2023,Zandvoort,Municipality,GM0473,473.0
+people_in_debt,2019,Zeewolde,Municipality,GM0050,278.0
+people_in_debt,2020,Zeewolde,Municipality,GM0050,289.0
+people_in_debt,2021,Zeewolde,Municipality,GM0050,305.0
+people_in_debt,2022,Zeewolde,Municipality,GM0050,332.0
+people_in_debt,2023,Zeewolde,Municipality,GM0050,394.0
+people_in_debt,2019,Zeist,Municipality,GM0355,346.0
+people_in_debt,2020,Zeist,Municipality,GM0355,376.0
+people_in_debt,2021,Zeist,Municipality,GM0355,399.0
+people_in_debt,2022,Zeist,Municipality,GM0355,440.0
+people_in_debt,2023,Zeist,Municipality,GM0355,516.0
+people_in_debt,2019,Zevenaar,Municipality,GM0299,204.0
+people_in_debt,2020,Zevenaar,Municipality,GM0299,219.0
+people_in_debt,2021,Zevenaar,Municipality,GM0299,236.0
+people_in_debt,2022,Zevenaar,Municipality,GM0299,265.0
+people_in_debt,2023,Zevenaar,Municipality,GM0299,303.0
+people_in_debt,2019,Zoetermeer,Municipality,GM0637,220.0
+people_in_debt,2020,Zoetermeer,Municipality,GM0637,242.0
+people_in_debt,2021,Zoetermeer,Municipality,GM0637,257.0
+people_in_debt,2022,Zoetermeer,Municipality,GM0637,290.0
+people_in_debt,2023,Zoetermeer,Municipality,GM0637,357.0
+people_in_debt,2019,Zoeterwoude,Municipality,GM0638,321.0
+people_in_debt,2020,Zoeterwoude,Municipality,GM0638,349.0
+people_in_debt,2021,Zoeterwoude,Municipality,GM0638,368.0
+people_in_debt,2022,Zoeterwoude,Municipality,GM0638,404.0
+people_in_debt,2023,Zoeterwoude,Municipality,GM0638,454.0
+people_in_debt,2019,Zuidplas,Municipality,GM1892,274.0
+people_in_debt,2020,Zuidplas,Municipality,GM1892,295.0
+people_in_debt,2021,Zuidplas,Municipality,GM1892,316.0
+people_in_debt,2022,Zuidplas,Municipality,GM1892,347.0
+people_in_debt,2023,Zuidplas,Municipality,GM1892,412.0
+people_in_debt,2019,Zundert,Municipality,GM0879,289.0
+people_in_debt,2020,Zundert,Municipality,GM0879,305.0
+people_in_debt,2021,Zundert,Municipality,GM0879,319.0
+people_in_debt,2022,Zundert,Municipality,GM0879,357.0
+people_in_debt,2023,Zundert,Municipality,GM0879,409.0
+people_in_debt,2019,Zutphen,Municipality,GM0301,202.0
+people_in_debt,2020,Zutphen,Municipality,GM0301,216.0
+people_in_debt,2021,Zutphen,Municipality,GM0301,231.0
+people_in_debt,2022,Zutphen,Municipality,GM0301,254.0
+people_in_debt,2023,Zutphen,Municipality,GM0301,312.0
+people_in_debt,2019,Zwartewaterland,Municipality,GM1896,216.0
+people_in_debt,2020,Zwartewaterland,Municipality,GM1896,225.0
+people_in_debt,2021,Zwartewaterland,Municipality,GM1896,237.0
+people_in_debt,2022,Zwartewaterland,Municipality,GM1896,262.0
+people_in_debt,2023,Zwartewaterland,Municipality,GM1896,297.0
+people_in_debt,2019,Zwijndrecht,Municipality,GM0642,198.0
+people_in_debt,2020,Zwijndrecht,Municipality,GM0642,216.0
+people_in_debt,2021,Zwijndrecht,Municipality,GM0642,237.0
+people_in_debt,2022,Zwijndrecht,Municipality,GM0642,256.0
+people_in_debt,2023,Zwijndrecht,Municipality,GM0642,304.0
+people_in_debt,2019,Zwolle,Municipality,GM0193,235.0
+people_in_debt,2020,Zwolle,Municipality,GM0193,252.0
+people_in_debt,2021,Zwolle,Municipality,GM0193,272.0
+people_in_debt,2022,Zwolle,Municipality,GM0193,298.0
+people_in_debt,2023,Zwolle,Municipality,GM0193,345.0

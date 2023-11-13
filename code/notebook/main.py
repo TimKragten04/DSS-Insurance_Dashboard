@@ -8,6 +8,7 @@ import requests
 import cbsodata
 import pandas as pd
 import sqlalchemy as sa
+from DataLoader import DataLoader
 from typing import Any
 from pathlib import Path
 from datetime import datetime
@@ -38,91 +39,7 @@ def check_and_create_folder(folder_path: Path):
         print(f"Folder created: {folder_path}")
     else:
         print(f"Folder already exists: {folder_path}")
-
-
-class Dataset(ABC):
-
-    @abstractmethod
-    def retrieve_data(self):
-        print("not implemented yet")
-
-    @abstractmethod
-    def clean_data(self):
-        print("not implemented yet")
-
-    @abstractmethod
-    def store_data(self):
-        print("not implemented yet")
-
-
-class PoliceDataset(Dataset):
-
-    police_url: str = "https://api.politie.nl/v4/gezocht"
-    wanted_persons_parameters: dict[str, str] = {
-        "uid": None,
-        "language": "nl",
-        "query": None,
-        "lat": None,
-        "lon": None,
-        "radius": None,
-        "maxnumberofitems": "25"
-    }
-
-    def retrieve_data(self):
-        police_datadata: pd.DataFrame = self.get_police_data(self.police_url, 3, self.wanted_persons_parameters)
-        dataframe_to_csv(police_datadata, data_path, "wanted_persons")
-    
-    def clean_data(self):
-        return super().clean_data()
-    
-    def store_data(self):
-        return super().store_data()
-    
-    def retrieve_police_data(target_url: str, max_requests: int = 10, parameters: dict[str, str] = {}) -> pd.DataFrame:
-        """ Gets the data from the police API back in a dataframe. Since the API is limited to only returning 25 records,
-        the API gets queried for a specified numer of times. While making the API call, it is possible to add additional parameters
-
-        Args:
-            target_url (str): The url for the specific data that you want to retrieve from the police
-            max_requests (int, optional): Maximum number of requests made to the police API. Defaults to 10
-            parameters (dict[str, str], optional): Additional parameters that can be added to the API request. Defaults to {}.
-
-        Returns:
-            pd.DataFrame: DataFrame containing the desired data
-        """
-        df: pd.DataFrame = pd.DataFrame()
-        request_index: int = 1
-
-        # Adding the parameters to the target url
-        if parameters != {}:
-            target_url = f"{target_url}?"
-
-            for parameter, value in parameters.items():
-                if value != None:
-                    target_url = f"{target_url}{parameter}={value}&"
-
-        base_url: str = target_url
-
-        # Making the requests
-        while request_index <= max_requests:
-            print(f"Starting request {str(request_index)}/{str(max_requests)}...")
-            # Calculate the offset
-            offset: int = (request_index - 1) * 25
-            
-            if parameter != {}:
-                target_url = f"{base_url}offset={offset}"
-            else:
-                target_url = f"{base_url}&offset={offset}"
-
-            r = requests.get(target_url).json()
-            df = pd.concat([df, pd.DataFrame(r["opsporingsberichten"])], ignore_index=True)
-
-            request_index = request_index + 1
-
-        print("Finished requests")
-
-        return df
-    
+ 
 
 class CBSDataset(ABC):
 
@@ -137,7 +54,10 @@ class CBSDataset(ABC):
     @abstractmethod
     def retrieve_data(self, identifier: str, name: str):
         print(f"Started: Retrieving dataset {self.name}")
+
+        check_and_create_folder(f"{data_path}/{name}")
         cbsodata.get_data(identifier, dir=f"{data_path}/{name}")
+
         print(f"Ended: Retrieving dataset {self.name}")
 
     @abstractmethod
@@ -145,13 +65,20 @@ class CBSDataset(ABC):
         print("not implemented yet")
 
     @abstractmethod
-    def store_data(self, engine: sa.Engine):
-        df: pd.DataFrame = pd.read_csv(f"{data_path}/cleaned/{self.name}/{self.name}_cleaned.csv")
+    def store_data(self, engine: sa.Engine, name: str):
+        print(f"Started: Storing dataset {self.name}")
+
+        df: pd.DataFrame = pd.read_csv(f"{data_path}/cleaned/{name}/{name}_cleaned.csv")
 
         with engine.connect() as connection:
-            result: sa.CursorResult[Any] = connection.execute(sa.text(f"DROP TABLE IF EXISTS {self.name} CASCADE;"))
+            result: sa.CursorResult[Any] = connection.execute(sa.text(f"DROP TABLE IF EXISTS {name} CASCADE;"))
 
-        df.to_sql("income_inequality", engine, if_exists="replace", index=True)
+        df.to_sql(name, engine, if_exists="replace", index=True)
+
+        df = pd.read_sql_table(name, engine, index_col="index")
+        df.head()
+
+        print(f"Ended: Storing dataset {self.name}")
 
 
 class HouseholdIncomeDataset(CBSDataset):
@@ -171,7 +98,7 @@ class HouseholdIncomeDataset(CBSDataset):
         self.__clean_income_dataset(f"{data_path}/{self.name}", f"{data_path}/cleaned/{self.name}", f"{self.name}_cleaned")
 
     def store_data(self, engine: sa.Engine):
-        super().store_data(engine)
+        super().store_data(engine, self.name)
 
     def __clean_income_dataset(self, dataset_path: Path, save_folder: Path, file_name: str) -> None:
         """
@@ -203,7 +130,7 @@ class HouseholdIncomeDataset(CBSDataset):
 
         income_df: pd.DataFrame = pd.DataFrame(income_dataset)
 
-        dataframe_to_csv(income_df, save_folder, file_name)
+        dataframe_to_csv(income_df, save_folder, f"{file_name}")
 
         print("Ended: Cleaning income dataset")
         
@@ -219,6 +146,8 @@ class HouseholdIncomeDataset(CBSDataset):
             dict[str, Any]: Cleaned income dataset.
         """
         print("Started: Removing redundant values income dataset")
+
+
 
         # remove all data that does not have to do with private housholds
         dataset: dict[str, Any] = [item for item in dataset if item["KenmerkenVanHuishoudens"] == "1050010"]
@@ -313,6 +242,312 @@ class HouseholdIncomeDataset(CBSDataset):
         return income_dataset
 
 
+class PeopleInDebtDataset(CBSDataset):
+
+    @property
+    def name(self) -> str:
+        return "people_in_debt"
+
+    @property
+    def identifier(self) -> str:
+        return "84926NED"
+
+    def retrieve_data(self):
+        super().retrieve_data(self.identifier, self.name)
+
+    def clean_data(self):
+        self.__clean_debt_dataset(f"{data_path}/{self.name}", f"{data_path}/cleaned/{self.name}", f"{self.name}_cleaned")
+
+    def store_data(self, engine: sa.Engine):
+        super().store_data(engine, self.name)
+
+    def __clean_debt_dataset(self, dataset_path: Path, save_folder: Path, file_name: str) -> None:
+        """
+        Clean the debt dataset. First all redundant values are removed from the JSON. Next, all region codes are translated
+        to actual region names, income values are changed to the right format and extra information is added. The results are
+        stored in a csv file, which can put in a database.
+
+        Args:
+            dataset_path (Path): The path to the folder that contains all JSONs.
+            save_folder (Path): Folder where the cleaned csv needs to be saved.
+            file_name (str): Name of the resulting file.
+        """
+        print("Started: Cleaning income dataset")
+
+        # Create some variables for the names of JSONs that will be used
+        dataset_debt_name: str = "TypedDataSet.json"
+        dataset_regions_name: str = "RegioS.json"
+
+        # First store the necessary datasets in variables
+        with open(f"{dataset_path}/{dataset_debt_name}", "r") as f:
+            income_dataset = json.load(f)
+
+        with open(f"{dataset_path}/{dataset_regions_name}", "r") as f:
+            regions_dataset = json.load(f)
+        
+        # Remove all redundant values from the dataset
+        income_dataset = self.__remove_redundant_values_debt_dataset(income_dataset)
+        income_dataset = self.__transform_values_debt_dataset(income_dataset, regions_dataset)
+
+        income_df: pd.DataFrame = pd.DataFrame(income_dataset)
+
+        dataframe_to_csv(income_df, save_folder, file_name)
+
+        print("Ended: Cleaning income dataset")
+
+    def __remove_redundant_values_debt_dataset(self, dataset: dict[str, Any]) -> dict[str, Any]:
+        """
+        In the income dataset there are some values that need to be removed. These are the values that don't contain the right
+        region level or not the right houshold features.
+
+        Args:
+            dataset (dict[str, Any]): Debt dataset to be cleaned.
+
+        Returns:
+            dict[str, Any]: Debt income dataset.
+        """
+        print("Started: Removing redundant values debt dataset")
+
+        # keep all data that has the correct region type (national level, province level or municipality level)
+        dataset: dict[str, Any] = [item for item in dataset if  item["RegioS"].startswith("NL") or
+                                                                item["RegioS"].startswith("PV") or
+                                                                item["RegioS"].startswith("GM")]
+        
+        # Remove all redundant data
+        for item in dataset:
+            item.pop("ID", None)
+
+        print("Ended: Removing redundant values income dataset")
+
+        return dataset
+
+    def __transform_values_debt_dataset(self, income_dataset: dict[str, Any], region_dataset: dict[str, Any]) -> dict[str, Any]:
+        """
+        Transforms all data in the correct format.
+
+        Args:
+            income_dataset (dict[str, Any]): The income dataset, where values still need to be transformed.
+            region_dataset (dict[str, Any]): The regions dataset, to translate region codes to actual region names.
+
+        Returns:
+            dict[str, Any]: The income dataset with transformed values.
+        """
+        print("Started: Transforming values income dataset")
+
+        # Create a dictionary from the regions dataset, where the key is the region-key and the values are the corresponsing values
+        converted_region_dataset: dict[str, Any] = {}
+
+        for item in region_dataset:
+            key = item.get("Key")
+            if key is not None:
+                item.pop("Key")
+                converted_region_dataset[key] = item
+
+        # Transforms data in the right format and deletes redundant data
+        for item in income_dataset:
+            
+            # Check the region for each item in the dataset and set the region type and name
+            match item["RegioS"][0:2]:
+                case "NL":
+                    region_type: str = "Country"
+                    region_name: str = converted_region_dataset[item["RegioS"]]["Title"]
+                case "PV":
+                    region_type: str = "Province"
+                    region_name: str = converted_region_dataset[item["RegioS"]]["Title"][:-5]
+                case "GM":
+                    region_type: str = "Municipality"
+                    region_name: str = converted_region_dataset[item["RegioS"]]["Title"]
+
+            item["dataset"] = "people_in_debt"
+            item["time_period"] = item["Perioden"][0:4]
+            item["region_name"] = region_name
+            item["region_type"] = region_type
+            item["region_code"] = item["RegioS"].strip()
+            item["people_in_debt"] = item["PersonenMetUitgesprokenSchuldsanering_1"]
+
+            # Delete remaining redundant data
+            item.pop("RegioS", None)
+            item.pop("Perioden", None)
+            item.pop("PersonenMetUitgesprokenSchuldsanering_1", None)
+
+        print("Ended: Transforming values income dataset")
+
+        return income_dataset
+
+
+class CrimeDataset(CBSDataset):
+    @property
+    def name(self) -> str:
+        return "crime"
+
+    @property
+    def identifier(self) -> str:
+        return "47013NED"
+
+    def retrieve_data(self):
+        check_and_create_folder(f"{data_path}/{self.name}")
+        check_and_create_folder(f"{data_path}/{self.name}/crime_rates")
+
+        data_loader: DataLoader = DataLoader()
+        data_loader.run_data_pipeline()
+
+    def clean_data(self):
+        pass
+
+    def store_data(self, engine: sa.Engine):
+        print(f"Started: Storing dataset {self.name}")
+
+        datasets: dict[str, pd.DataFrame] = {
+            "crime_rates": pd.read_csv(f"{data_path}/{self.name}/crime_rates.csv"),
+            "crime_counts": pd.read_csv(f"{data_path}/{self.name}/crime_counts.csv"),
+            "population": pd.read_csv(f"{data_path}/{self.name}/population.csv")
+        }
+
+        for dataset, df in datasets.items():
+            with engine.connect() as connection:
+                result: sa.CursorResult[Any] = connection.execute(sa.text(f"DROP TABLE IF EXISTS {dataset} CASCADE;"))
+
+            df.to_sql(dataset, engine, if_exists="replace", index=True)
+
+        print(f"Ended: Storing dataset {self.name}")
+
+
+class PropertyValueDataset(CBSDataset):
+
+    @property
+    def name(self) -> str:
+        return "property_value"
+
+    @property
+    def identifier(self) -> str:
+        return "85036NED"
+
+    def retrieve_data(self):
+        super().retrieve_data(self.identifier, self.name)
+
+    def clean_data(self):
+        self.__clean_property_value_dataset(f"{data_path}/{self.name}", f"{data_path}/cleaned/{self.name}", f"{self.name}_cleaned")
+
+    def store_data(self, engine: sa.Engine):
+        super().store_data(engine, self.name)
+
+    def __clean_property_value_dataset(self, dataset_path: Path, save_folder: Path, file_name: str) -> None:
+        """
+        Clean the debt dataset. First all redundant values are removed from the JSON. Next, all region codes are translated
+        to actual region names, income values are changed to the right format and extra information is added. The results are
+        stored in a csv file, which can put in a database.
+
+        Args:
+            dataset_path (Path): The path to the folder that contains all JSONs.
+            save_folder (Path): Folder where the cleaned csv needs to be saved.
+            file_name (str): Name of the resulting file.
+        """
+        print("Started: Cleaning property_value dataset")
+
+        # Create some variables for the names of JSONs that will be used
+        dataset_property_value_name: str = "TypedDataSet.json"
+        dataset_regions_name: str = "RegioS.json"
+
+        # First store the necessary datasets in variables
+        with open(f"{dataset_path}/{dataset_property_value_name}", "r") as f:
+            property_value_dataset = json.load(f)
+
+        with open(f"{dataset_path}/{dataset_regions_name}", "r") as f:
+            regions_dataset = json.load(f)
+        
+        # Remove all redundant values from the dataset
+        property_value_dataset = self.__remove_redundant_values_property_value_dataset(property_value_dataset)
+        property_value_dataset = self.__transform_values_property_value_dataset(property_value_dataset, regions_dataset)
+
+        property_value_df: pd.DataFrame = pd.DataFrame(property_value_dataset)
+
+        dataframe_to_csv(property_value_df, save_folder, file_name)
+
+        print("Ended: Cleaning property_value dataset")
+
+    def __remove_redundant_values_property_value_dataset(self, dataset: dict[str, Any]) -> dict[str, Any]:
+        """
+        In the income dataset there are some values that need to be removed. These are the values that don't contain the right
+        region level or not the right houshold features.
+
+        Args:
+            dataset (dict[str, Any]): Debt dataset to be cleaned.
+
+        Returns:
+            dict[str, Any]: Debt income dataset.
+        """
+        print("Started: Removing redundant values debt dataset")
+
+        dataset: dict[str, Any] = [item for item in dataset if item["Eigendom"] == "T001132"]
+
+        # keep all data that has the correct region type (national level, province level or municipality level)
+        dataset: dict[str, Any] = [item for item in dataset if  item["RegioS"].startswith("NL") or
+                                                                item["RegioS"].startswith("PV") or
+                                                                item["RegioS"].startswith("GM")]
+        
+        # Remove all redundant data
+        for item in dataset:
+            item.pop("ID", None)
+            item.pop("Eigendom", None)
+
+        print("Ended: Removing redundant values income dataset")
+
+        return dataset
+
+    def __transform_values_property_value_dataset(self, property_value_dataset: dict[str, Any], region_dataset: dict[str, Any]) -> dict[str, Any]:
+        """
+        Transforms all data in the correct format.
+
+        Args:
+            income_dataset (dict[str, Any]): The property_value dataset, where values still need to be transformed.
+            region_dataset (dict[str, Any]): The regions dataset, to translate region codes to actual region names.
+
+        Returns:
+            dict[str, Any]: The property_value dataset with transformed values.
+        """
+        print("Started: Transforming values property_value dataset")
+
+        # Create a dictionary from the regions dataset, where the key is the region-key and the values are the corresponsing values
+        converted_region_dataset: dict[str, Any] = {}
+
+        for item in region_dataset:
+            key = item.get("Key")
+            if key is not None:
+                item.pop("Key")
+                converted_region_dataset[key] = item
+
+        # Transforms data in the right format and deletes redundant data
+        for item in property_value_dataset:
+            
+            # Check the region for each item in the dataset and set the region type and name
+            match item["RegioS"][0:2]:
+                case "NL":
+                    region_type: str = "Country"
+                    region_name: str = converted_region_dataset[item["RegioS"]]["Title"]
+                case "PV":
+                    region_type: str = "Province"
+                    region_name: str = converted_region_dataset[item["RegioS"]]["Title"][:-5]
+                case "GM":
+                    region_type: str = "Municipality"
+                    region_name: str = converted_region_dataset[item["RegioS"]]["Title"]
+
+            item["dataset"] = "people_in_debt"
+            item["time_period"] = item["Perioden"][0:4]
+            item["region_name"] = region_name
+            item["region_type"] = region_type
+            item["region_code"] = item["RegioS"].strip()
+            item["property_value"] = item["GemiddeldeWOZWaardeVanWoningen_1"]
+
+            # Delete remaining redundant data
+            item.pop("RegioS", None)
+            item.pop("Perioden", None)
+            item.pop("GemiddeldeWOZWaardeVanWoningen_1", None)
+
+        print("Ended: Transforming values income dataset")
+
+        return property_value_dataset
+
+
 def data_processing_pipeline(datasets: list[CBSDataset]) -> None:
     """
     Here all the steps for retrieving, cleaning and storing the data will take place
@@ -320,13 +555,18 @@ def data_processing_pipeline(datasets: list[CBSDataset]) -> None:
     engine: sa.Engine = sa.create_engine(f"postgresql://student:infomdss@dashboard:{port}/dashboard")
 
     for dataset in datasets:
-        #dataset.retrieve_data()
+        dataset.retrieve_data()
         dataset.clean_data()
         dataset.store_data(engine)
 
 
 if __name__ == "__main__":
     # Setup for all datasets that will be scraped
-    datasets: list[CBSDataset] = [HouseholdIncomeDataset()]
+    datasets: list[CBSDataset] = [
+        HouseholdIncomeDataset(),
+        PeopleInDebtDataset(),
+        CrimeDataset(),
+        PropertyValueDataset()
+    ]
 
     data_processing_pipeline(datasets)

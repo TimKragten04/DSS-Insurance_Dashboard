@@ -1,1 +1,1 @@
-* * * * * /usr/local/bin/python3.10 /notebook/main.py >> /var/log/cron.log
+0 7 * * * /usr/local/bin/python3.10 /notebook/main.py >> /var/log/cron.log 1>&2

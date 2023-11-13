@@ -1,0 +1,466 @@
+Key;Title;Description
+NL01;Nederland;
+LD01;Noord-Nederland (LD); 
+LD02;Oost-Nederland (LD); 
+LD03;West-Nederland (LD); 
+LDG4;West-Nederland, exclusief G4 (LD); 
+LD04;Zuid-Nederland (LD); 
+LDZZ  ;Extra-Regio (LD); 
+LD98;Buitenland (LD); 
+LD99;Niet in te delen (LD); 
+PV20;Groningen (PV); 
+PV21;Fryslân (PV); 
+PV22;Drenthe (PV); 
+PV23;Overijssel (PV); 
+PV24;Flevoland (PV); 
+PV25;Gelderland (PV); 
+PV26;Utrecht (PV); 
+PV27;Noord-Holland (PV); 
+PV28;Zuid-Holland (PV); 
+PV29;Zeeland (PV); 
+PV30;Noord-Brabant (PV); 
+PV31;Limburg (PV); 
+GM1680;Aa en Hunze;Ontstaan per 01-01-1998
+GM0738;Aalburg; 
+GM0358;Aalsmeer;Begindatum voor 1830
+GM0197;Aalten; 
+GM0059;Achtkarspelen;Begindatum voor 1830
+GM0482;Alblasserdam;Begindatum voor 1830
+GM0613;Albrandswaard;Ontstaan per 01-01-1985
+GM0361;Alkmaar; 
+GM0141;Almelo;Begindatum 01-12-1913
+GM0034;Almere;Ontstaan per 01-01-1984
+GM0484;Alphen aan den Rijn; 
+GM1723;Alphen-Chaam;Ontstaan per 01-01-1997
+GM1959;Altena;Ontstaan per 01-01-2019
+GM0060;Ameland;Begindatum voor 1830
+GM0307;Amersfoort;Begindatum voor 1830
+GM0362;Amstelveen;Naamswijziging per 01-01-1964
+GM0363;Amsterdam; 
+GM0366;Anna Paulowna; 
+GM0200;Apeldoorn;Begindatum voor 1830
+GM0003;Appingedam; 
+GM0202;Arnhem;Begindatum voor 1830
+GM0106;Assen;Begindatum voor 1830
+GM0743;Asten;Begindatum voor 1830
+GM0744;Baarle-Nassau;Begindatum voor 1830
+GM0308;Baarn;Begindatum voor 1830
+GM0489;Barendrecht;Naamswijziging per 10-12-1886
+GM0203;Barneveld;Begindatum voor 1830
+GM0005;Bedum; 
+GM0888;Beek (L.);Begindatum 02-01-1839
+GM1954;Beekdaelen;Ontstaan per 01-01-2019
+GM0370;Beemster; 
+GM0889;Beesel;Begindatum 02-01-1839
+GM0007;Bellingwedde; 
+GM1945;Berg en Dal;Naamswijziging per 01-01-2016
+GM0491;Bergambacht; 
+GM1724;Bergeijk;Naamswijziging per 25-09-1998
+GM0893;Bergen (L.);Begindatum 02-01-1839
+GM0373;Bergen (NH.); 
+GM0748;Bergen op Zoom; 
+GM1859;Berkelland;Ontstaan per 01-01-2005
+GM1721;Bernheze;Naamswijziging per 28-01-1995
+GM0568;Bernisse; 
+GM0753;Best;Begindatum voor 1830
+GM0209;Beuningen;Begindatum voor 1830
+GM0375;Beverwijk;Begindatum voor 1830
+GM0063;het Bildt; 
+GM0310;De Bilt; 
+GM0585;Binnenmaas; 
+GM1728;Bladel;Ontstaan per 01-01-1997
+GM0376;Blaricum;Begindatum voor 1830
+GM0377;Bloemendaal; 
+GM0055;Boarnsterhim; 
+GM1901;Bodegraven-Reeuwijk;Ontstaan per 01-01-2011
+GM0755;Boekel;Begindatum voor 1830
+GM0009;Ten Boer; 
+GM1681;Borger-Odoorn;Ontstaan per 01-01-1998
+GM0147;Borne;Begindatum voor 1830
+GM0654;Borsele;Naamswijziging per 01-01-1970
+GM0499;Boskoop; 
+GM0756;Boxmeer; 
+GM0757;Boxtel; 
+GM0758;Breda; 
+GM0501;Brielle; 
+GM1876;Bronckhorst;Ontstaan per 01-01-2005
+GM0213;Brummen;Begindatum voor 1830
+GM0899;Brunssum;Begindatum 02-01-1839
+GM0312;Bunnik;Begindatum voor 1830
+GM0313;Bunschoten;Begindatum voor 1830
+GM0214;Buren; 
+GM0381;Bussum; 
+GM0502;Capelle aan den IJssel;Begindatum voor 1830
+GM0383;Castricum; 
+GM0109;Coevorden; 
+GM1706;Cranendonck;Naamswijziging per 28-01-1998
+GM0611;Cromstrijen; 
+GM1684;Cuijk; 
+GM0216;Culemborg;Begindatum voor 1830
+GM0148;Dalfsen; 
+GM1891;Dantumadiel;Naamswijziging per 01-01-2009
+GM0503;Delft;Begindatum voor 1830
+GM0010;Delfzijl; 
+GM0762;Deurne;Naamswijziging per 01-01-1926
+GM0150;Deventer; 
+GM0384;Diemen;Begindatum voor 1830
+GM1980;Dijk en Waard;Ontstaan per 01-01-2022
+GM1774;Dinkelland;Naamswijziging per 01-06-2002
+GM0504;Dirksland; 
+GM0221;Doesburg;Begindatum voor 1830
+GM0222;Doetinchem; 
+GM0766;Dongen; 
+GM0058;Dongeradeel; 
+GM0505;Dordrecht;Begindatum voor 1830
+GM0498;Drechterland; 
+GM1719;Drimmelen;Naamswijziging per 25-04-1998
+GM0303;Dronten;Ontstaan per 01-01-1972
+GM0225;Druten;Begindatum voor 1830
+GM0226;Duiven;Begindatum voor 1830
+GM1711;Echt-Susteren;Ontstaan per 01-01-2003
+GM0385;Edam-Volendam; 
+GM0228;Ede;Begindatum voor 1830
+GM0317;Eemnes;Begindatum voor 1830
+GM1979;Eemsdelta;Ontstaan per 01-01-2021
+GM1651;Eemsmond; 
+GM0770;Eersel; 
+GM1903;Eijsden-Margraten;Ontstaan per 01-01-2011
+GM0772;Eindhoven;Begindatum voor 1830
+GM0230;Elburg;Begindatum voor 1830
+GM0114;Emmen; 
+GM0388;Enkhuizen;Begindatum voor 1830
+GM0153;Enschede;Begindatum voor 1830
+GM0232;Epe;Begindatum voor 1830
+GM0233;Ermelo;Begindatum voor 1830
+GM0777;Etten-Leur;Naamswijziging per 01-01-1968
+GM1722;Ferwerderadiel; 
+GM0070;Franekeradeel; 
+GM1921;De Friese Meren; 
+GM1940;De Fryske Marren;Naamswijziging per 01-07-2015
+GM0653;Gaasterlân-Sleat; 
+GM0779;Geertruidenberg; 
+GM0236;Geldermalsen; 
+GM1771;Geldrop-Mierlo;Ontstaan per 01-01-2004
+GM1652;Gemert-Bakel;Ontstaan per 01-01-1997
+GM0907;Gennep;Begindatum 02-01-1839
+GM0689;Giessenlanden; 
+GM0784;Gilze en Rijen;Begindatum voor 1830
+GM0511;Goedereede; 
+GM1924;Goeree-Overflakkee;Ontstaan per 01-01-2013
+GM0664;Goes;Begindatum voor 1830
+GM0785;Goirle;Begindatum voor 1830
+GM1942;Gooise Meren;Ontstaan per 01-01-2016
+GM0512;Gorinchem;Begindatum voor 1830
+GM0513;Gouda;Begindatum voor 1830
+GM0693;Graafstroom; 
+GM0365;Graft-De Rijp; 
+GM0786;Grave; 
+GM0518;'s-Gravenhage (gemeente);Begindatum voor 1830
+GM0241;Groesbeek; 
+GM0014;Groningen (gemeente); 
+GM0015;Grootegast; 
+GM1729;Gulpen-Wittem;Ontstaan per 01-01-1999
+GM0158;Haaksbergen;Begindatum voor 1830
+GM0788;Haaren; 
+GM0392;Haarlem;Begindatum voor 1830
+GM0393;Haarlemmerliede en Spaarnwoude; 
+GM0394;Haarlemmermeer; 
+GM1655;Halderberge;Ontstaan per 01-01-1997
+GM0160;Hardenberg; 
+GM0243;Harderwijk;Begindatum voor 1830
+GM0523;Hardinxveld-Giessendam;Ontstaan per 01-01-1957
+GM0017;Haren; 
+GM0395;Harenkarspel; 
+GM0072;Harlingen;Begindatum voor 1830
+GM0244;Hattem;Begindatum voor 1830
+GM0396;Heemskerk;Begindatum voor 1830
+GM0397;Heemstede;Begindatum voor 1830
+GM0246;Heerde;Begindatum voor 1830
+GM0074;Heerenveen; 
+GM0398;Heerhugowaard; 
+GM0917;Heerlen;Begindatum 02-01-1839
+GM1658;Heeze-Leende;Ontstaan per 01-01-1997
+GM0399;Heiloo;Begindatum voor 1830
+GM0400;Den Helder;Begindatum voor 1830
+GM0163;Hellendoorn;Begindatum voor 1830
+GM0530;Hellevoetsluis; 
+GM0794;Helmond;Begindatum voor 1830
+GM0531;Hendrik-Ido-Ambacht;Begindatum voor 1830
+GM0164;Hengelo (O.);Begindatum voor 1830
+GM0796;'s-Hertogenbosch; 
+GM0252;Heumen;Begindatum voor 1830
+GM0797;Heusden; 
+GM0534;Hillegom;Begindatum voor 1830
+GM0798;Hilvarenbeek; 
+GM0402;Hilversum;Begindatum voor 1830
+GM1963;Hoeksche Waard;Ontstaan per 01-01-2019
+GM1735;Hof van Twente;Ontstaan per 01-01-2001
+GM1966;Het Hogeland;Ontstaan per 01-01-2019
+GM1911;Hollands Kroon;Ontstaan per 01-01-2012
+GM0118;Hoogeveen;Begindatum voor 1830
+GM0018;Hoogezand-Sappemeer; 
+GM0405;Hoorn;Begindatum voor 1830
+GM1507;Horst aan de Maas; 
+GM0321;Houten;Begindatum voor 1830
+GM0406;Huizen;Begindatum voor 1830
+GM0677;Hulst; 
+GM0353;IJsselstein;Begindatum voor 1830
+GM1884;Kaag en Braassem;Ontstaan per 01-01-2009
+GM0166;Kampen; 
+GM0678;Kapelle;Begindatum voor 1830
+GM0537;Katwijk; 
+GM0928;Kerkrade;Begindatum 02-01-1839
+GM1598;Koggenland;Ontstaan per 01-01-2007
+GM0079;Kollumerland en Nieuwkruisland; 
+GM0588;Korendijk; 
+GM0542;Krimpen aan den IJssel;Begindatum voor 1830
+GM1931;Krimpenerwaard;Ontstaan per 01-01-2015
+GM1659;Laarbeek;Ontstaan per 01-01-1997
+GM1982;Land van Cuijk;Ontstaan per 01-01-2022
+GM1685;Landerd; 
+GM0882;Landgraaf;Ontstaan per 01-01-1982
+GM0415;Landsmeer; 
+GM0416;Langedijk; 
+GM1621;Lansingerland;Ontstaan per 01-01-2007
+GM0417;Laren (NH.);Begindatum voor 1830
+GM0022;Leek; 
+GM0545;Leerdam; 
+GM0080;Leeuwarden; 
+GM0081;Leeuwarderadeel; 
+GM0546;Leiden;Begindatum voor 1830
+GM0547;Leiderdorp;Begindatum voor 1830
+GM1916;Leidschendam-Voorburg;Ontstaan per 01-01-2002
+GM0995;Lelystad;Ontstaan per 01-01-1980
+GM0082;Lemsterland; 
+GM1640;Leudal;Ontstaan per 01-01-2007
+GM0327;Leusden;Begindatum voor 1830
+GM0694;Liesveld; 
+GM0733;Lingewaal; 
+GM1705;Lingewaard;Naamswijziging per 01-01-2003
+GM0553;Lisse;Begindatum voor 1830
+GM0140;Littenseradiel; 
+GM0262;Lochem; 
+GM0809;Loon op Zand;Begindatum voor 1830
+GM0331;Lopik;Begindatum voor 1830
+GM0024;Loppersum; 
+GM0168;Losser;Begindatum voor 1830
+GM1671;Maasdonk; 
+GM0263;Maasdriel; 
+GM1641;Maasgouw;Ontstaan per 01-01-2007
+GM1991;Maashorst;Ontstaan per 01-01-2022
+GM0556;Maassluis;Begindatum voor 1830
+GM0935;Maastricht;Begindatum voor 1830
+GM1663;De Marne; 
+GM0025;Marum; 
+GM0420;Medemblik; 
+GM0938;Meerssen;Begindatum 02-01-1839
+GM1948;Meierijstad;Ontstaan per 01-01-2017
+GM1908;Menameradiel; 
+GM1987;Menterwolde; 
+GM0119;Meppel; 
+GM0687;Middelburg (Z.); 
+GM0559;Middelharnis; 
+GM1842;Midden-Delfland;Ontstaan per 01-01-2004
+GM1731;Midden-Drenthe;Naamswijziging per 01-01-2000
+GM1952;Midden-Groningen;Ontstaan per 01-01-2018
+GM0815;Mill en Sint Hubert; 
+GM0265;Millingen aan de Rijn; 
+GM1709;Moerdijk;Naamswijziging per 04-04-1998
+GM1978;Molenlanden;Ontstaan per 01-01-2019
+GM1927;Molenwaard; 
+GM1955;Montferland;Ontstaan per 01-01-2005
+GM0335;Montfoort;Begindatum voor 1830
+GM0944;Mook en Middelaar;Begindatum 02-01-1839
+GM0424;Muiden; 
+GM0425;Naarden; 
+GM1740;Neder-Betuwe;Naamswijziging per 01-04-2003
+GM0643;Nederlek; 
+GM0946;Nederweert;Begindatum 02-01-1839
+GM0304;Neerijnen; 
+GM0412;Niedorp; 
+GM0356;Nieuwegein;Ontstaan per 01-07-1971
+GM0569;Nieuwkoop; 
+GM0571;Nieuw-Lekkerland; 
+GM0267;Nijkerk; 
+GM0268;Nijmegen;Begindatum voor 1830
+GM1930;Nissewaard;Ontstaan per 01-01-2015
+GM1970;Noardeast-Fryslân;Ontstaan per 01-01-2019
+GM1695;Noord-Beveland;Ontstaan per 01-01-1995
+GM1699;Noordenveld;Ontstaan per 01-01-1998
+GM0171;Noordoostpolder; 
+GM0575;Noordwijk; 
+GM0576;Noordwijkerhout; 
+GM0820;Nuenen, Gerwen en Nederwetten;Begindatum voor 1830
+GM0302;Nunspeet;Ontstaan per 01-01-1972
+GM0951;Nuth; 
+GM0579;Oegstgeest;Begindatum voor 1830
+GM0823;Oirschot; 
+GM0824;Oisterwijk; 
+GM1895;Oldambt;Ontstaan per 01-01-2010
+GM0269;Oldebroek;Begindatum voor 1830
+GM0173;Oldenzaal;Begindatum voor 1830
+GM1773;Olst-Wijhe;Naamswijziging per 26-03-2002
+GM0175;Ommen;Begindatum 01-05-1923
+GM0881;Onderbanken; 
+GM1586;Oost Gelre;Naamswijziging per 19-05-2006
+GM0826;Oosterhout;Begindatum voor 1830
+GM0580;Oostflakkee; 
+GM0085;Ooststellingwerf;Begindatum voor 1830
+GM0431;Oostzaan;Begindatum voor 1830
+GM0432;Opmeer;Begindatum voor 1830
+GM0086;Opsterland;Begindatum voor 1830
+GM0828;Oss; 
+GM0584;Oud-Beijerland; 
+GM1509;Oude IJsselstreek;Ontstaan per 01-01-2005
+GM0437;Ouder-Amstel;Begindatum voor 1830
+GM0644;Ouderkerk; 
+GM0589;Oudewater; 
+GM1734;Overbetuwe;Ontstaan per 01-01-2001
+GM0590;Papendrecht;Begindatum voor 1830
+GM1894;Peel en Maas;Ontstaan per 01-01-2010
+GM0765;Pekela;Ontstaan per 01-01-1990
+GM1926;Pijnacker-Nootdorp;Ontstaan per 01-01-2002
+GM0439;Purmerend; 
+GM0273;Putten;Begindatum voor 1830
+GM0177;Raalte; 
+GM0703;Reimerswaal;Ontstaan per 01-01-1970
+GM0274;Renkum;Begindatum voor 1830
+GM0339;Renswoude;Begindatum voor 1830
+GM1667;Reusel-De Mierden;Ontstaan per 01-01-1997
+GM0275;Rheden;Begindatum voor 1830
+GM0340;Rhenen;Begindatum voor 1830
+GM0597;Ridderkerk;Begindatum voor 1830
+GM0196;Rijnwaarden; 
+GM1672;Rijnwoude; 
+GM1742;Rijssen-Holten;Naamswijziging per 15-03-2003
+GM0603;Rijswijk (ZH.);Begindatum voor 1830
+GM1669;Roerdalen; 
+GM0957;Roermond; 
+GM0736;De Ronde Venen; 
+GM1674;Roosendaal;Ontstaan per 01-01-1997
+GM0599;Rotterdam;Begindatum voor 1830
+GM0277;Rozendaal;Begindatum voor 1830
+GM0840;Rucphen;Begindatum voor 1830
+GM0441;Schagen; 
+GM0458;Schermer; 
+GM0279;Scherpenzeel;Begindatum voor 1830
+GM0606;Schiedam;Begindatum voor 1830
+GM0088;Schiermonnikoog;Begindatum voor 1830
+GM0844;Schijndel; 
+GM0962;Schinnen; 
+GM0608;Schoonhoven; 
+GM1676;Schouwen-Duiveland;Ontstaan per 01-01-1997
+GM0965;Simpelveld;Begindatum 02-01-1839
+GM1702;Sint Anthonis; 
+GM0845;Sint-Michielsgestel; 
+GM0846;Sint-Oedenrode; 
+GM1883;Sittard-Geleen;Ontstaan per 01-01-2001
+GM0051;Skarsterlân; 
+GM0610;Sliedrecht;Begindatum voor 1830
+GM0040;Slochteren; 
+GM1714;Sluis;Ontstaan per 01-01-2003
+GM0090;Smallingerland;Begindatum voor 1830
+GM0342;Soest;Begindatum voor 1830
+GM0847;Someren;Begindatum voor 1830
+GM0848;Son en Breugel;Begindatum voor 1830
+GM0612;Spijkenisse; 
+GM0037;Stadskanaal;Ontstaan per 01-01-1969
+GM0180;Staphorst;Begindatum voor 1830
+GM0532;Stede Broec;Ontstaan per 01-01-1979
+GM0851;Steenbergen; 
+GM1708;Steenwijkerland;Naamswijziging per 01-01-2003
+GM0971;Stein (L.);Begindatum 02-01-1839
+GM1904;Stichtse Vecht;Ontstaan per 01-01-2011
+GM0617;Strijen; 
+GM1900;Súdwest-Fryslân; 
+GM0715;Terneuzen; 
+GM0093;Terschelling; 
+GM0448;Texel;Begindatum voor 1830
+GM1525;Teylingen;Ontstaan per 01-01-2006
+GM0716;Tholen; 
+GM0281;Tiel;Begindatum voor 1830
+GM0855;Tilburg; 
+GM0183;Tubbergen;Begindatum voor 1830
+GM1700;Twenterand;Naamswijziging per 01-06-2002
+GM1730;Tynaarlo;Naamswijziging per 01-12-1999
+GM0737;Tytsjerksteradiel;Naamswijziging per 01-01-1989
+GM0282;Ubbergen; 
+GM0856;Uden; 
+GM0450;Uitgeest;Begindatum voor 1830
+GM0451;Uithoorn;Begindatum voor 1830
+GM0184;Urk; 
+GM0344;Utrecht (gemeente); 
+GM1581;Utrechtse Heuvelrug;Ontstaan per 01-01-2006
+GM0981;Vaals;Begindatum 02-01-1839
+GM0994;Valkenburg aan de Geul;Ontstaan per 01-01-1982
+GM0858;Valkenswaard;Begindatum voor 1830
+GM0047;Veendam;Begindatum voor 1830
+GM0345;Veenendaal;Begindatum voor 1830
+GM0717;Veere; 
+GM0860;Veghel; 
+GM0861;Veldhoven;Naamswijziging per 01-05-1921
+GM0453;Velsen;Begindatum voor 1830
+GM0983;Venlo; 
+GM0984;Venray;Begindatum 02-01-1839
+GM0620;Vianen; 
+GM1961;Vijfheerenlanden; 
+GM0622;Vlaardingen;Begindatum voor 1830
+GM0048;Vlagtwedde; 
+GM0096;Vlieland; 
+GM0718;Vlissingen;Begindatum voor 1830
+GM0623;Vlist; 
+GM0986;Voerendaal;Begindatum 02-01-1839
+GM0626;Voorschoten;Begindatum voor 1830
+GM0285;Voorst;Begindatum voor 1830
+GM0865;Vught; 
+GM1949;Waadhoeke;Ontstaan per 01-01-2018
+GM0866;Waalre;Begindatum voor 1830
+GM0867;Waalwijk; 
+GM0627;Waddinxveen;Begindatum 01-07-1870
+GM0289;Wageningen;Begindatum voor 1830
+GM0629;Wassenaar;Begindatum voor 1830
+GM0852;Waterland;Ontstaan per 01-01-1991
+GM0988;Weert; 
+GM0457;Weesp; 
+GM0870;Werkendam; 
+GM1960;West Betuwe;Ontstaan per 01-01-2019
+GM0668;West Maas en Waal;Naamswijziging per 01-07-1985
+GM1969;Westerkwartier;Ontstaan per 01-01-2019
+GM1701;Westerveld;Ontstaan per 01-01-1998
+GM0293;Westervoort;Begindatum voor 1830
+GM1950;Westerwolde;Ontstaan per 01-01-2018
+GM1783;Westland;Ontstaan per 01-01-2004
+GM0098;Weststellingwerf;Begindatum voor 1830
+GM0614;Westvoorne; 
+GM0189;Wierden;Begindatum voor 1830
+GM0462;Wieringen; 
+GM0463;Wieringermeer; 
+GM0296;Wijchen;Begindatum voor 1830
+GM1696;Wijdemeren;Ontstaan per 01-01-2002
+GM0352;Wijk bij Duurstede; 
+GM0053;Winsum; 
+GM0294;Winterswijk;Begindatum voor 1830
+GM0873;Woensdrecht; 
+GM0632;Woerden; 
+GM1690;De Wolden;Ontstaan per 01-01-1998
+GM0880;Wormerland;Ontstaan per 01-01-1991
+GM0351;Woudenberg;Begindatum voor 1830
+GM0874;Woudrichem; 
+GM0479;Zaanstad;Ontstaan per 01-01-1974
+GM0297;Zaltbommel; 
+GM0473;Zandvoort;Begindatum voor 1830
+GM0707;Zederik; 
+GM0478;Zeevang; 
+GM0050;Zeewolde;Ontstaan per 01-01-1984
+GM0355;Zeist;Begindatum voor 1830
+GM0299;Zevenaar; 
+GM0476;Zijpe; 
+GM0637;Zoetermeer;Begindatum voor 1830
+GM0638;Zoeterwoude;Begindatum voor 1830
+GM0056;Zuidhorn; 
+GM1892;Zuidplas;Ontstaan per 01-01-2010
+GM0879;Zundert; 
+GM0301;Zutphen; 
+GM1896;Zwartewaterland;Ontstaan per 01-01-2001
+GM0642;Zwijndrecht; 
+GM0193;Zwolle;Begindatum voor 1830
